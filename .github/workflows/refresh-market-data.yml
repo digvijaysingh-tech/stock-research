@@ -1,0 +1,43 @@
+name: Refresh market data
+
+# The 4-hour refresh for gainers/losers + the breakout ("AI") watchlist.
+# Runs server-side (no browser CORS limits), then commits data/market.json,
+# which the static GitHub Pages site reads instantly.
+
+on:
+  schedule:
+    # Every 4 hours, on the hour (UTC). GitHub cron is best-effort and may lag a few minutes.
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}   # allow manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-market-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run breakout screener
+        run: node scripts/screener.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "market-data-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet data/market.json; then
+            echo "No change in market data."
+          else
+            git add data/market.json
+            git commit -m "chore: refresh market data [skip ci]"
+            git push
+          fi

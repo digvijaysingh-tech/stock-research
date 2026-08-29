@@ -41,6 +41,34 @@ and shows **probabilistic price projections** for the next ~5 weeks and ~5 month
 The context feeds load **asynchronously and independently** — the core price analysis renders immediately
 and never waits on (or breaks because of) a slow/blocked feed.
 
+## Live dashboard
+
+The landing page is an **interactive dashboard**:
+
+- **⏰ Live clock** — current date & time to the second (updates every second).
+- **📡 Live market data** — Nifty 50, Sensex, Bank Nifty, India VIX, USD/INR, Brent crude; auto-refreshes every 60s.
+- **📈 Top gainers / 📉 Top losers** — from the scheduled screener.
+- **🤖 AI breakout watchlist** — a transparent quantitative screener that ranks the stock universe for breakout
+  setups (near 52-week highs, above key moving averages, momentum + volume surge, tight consolidation), showing
+  the scored reasons for each pick. **Refreshed every 4 hours.**
+- **⭐ My watchlist** — add your own tickers; saved in your browser's localStorage.
+
+Clicking any stock anywhere on the dashboard runs the full research analysis for it.
+
+### Why a GitHub Action powers the movers & watchlist
+
+Batch-fetching a 60+ stock universe from the browser through public CORS proxies **fails** (rate-limited,
+~0/6 success in testing). So a scheduled **GitHub Action** (`.github/workflows/refresh-market-data.yml`) runs
+`scripts/screener.mjs` server-side — where there's no CORS limit and the full scan takes <1s — and commits the
+result to `data/market.json`. The static site just reads that JSON. **The cron *is* the 4-hour refresh.**
+
+To trigger it manually: repo → **Actions** tab → **Refresh market data** → **Run workflow**. It also runs
+automatically every 4 hours once the repo has Actions enabled.
+
+> **The "AI watchlist" is an algorithm, not a live LLM.** A static site can't run a server-side model, and
+> embedding an API key in public code would be a security hole. The screener is fully transparent — every pick
+> shows why it scored highly. A high score flags a *pattern*, which can fail; it is not a recommendation.
+
 ## Run locally
 
 It's a static site — just serve the folder:

@@ -4,6 +4,7 @@ import { sma, ema, rsi, macd, bollinger, logReturns, annualizedVol, fiftyTwoWeek
 import { computeSignal } from './signal.js';
 import { estimateParams, project, weeklyHorizons, monthlyHorizons } from './projection.js';
 import { fetchNews, scoreHeadlines, fetchFundamentals, fetchMacro, macroRiskNote, fetchReddit } from './context.js';
+import { initDashboard } from './dashboard.js';
 
 const QUICK = ['RELIANCE', 'TCS', 'INFY', 'HDFCBANK', 'ICICIBANK', 'SBIN', 'ITC', 'TATAMOTORS', 'WIPRO', 'BAJFINANCE'];
 const INR = new Intl.NumberFormat('en-IN', { maximumFractionDigits: 2 });
@@ -542,3 +543,10 @@ function renderReddit(data) {
 
 // ---------- Boot ----------
 els.ticker.value = 'RELIANCE';
+
+// Initialize the live dashboard. Clicking any row/pick runs a full analysis.
+initDashboard((sym) => {
+  els.ticker.value = sym;
+  els.exchange.value = 'NS';
+  els.form.requestSubmit();
+});

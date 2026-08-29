@@ -17,7 +17,13 @@
         <p class="subtitle">Real data · Technical analysis · Probabilistic outlook — NSE/BSE</p>
       </div>
     </div>
-    <button id="settingsBtn" class="ghost-btn" title="Data source settings">⚙︎ Data source</button>
+    <div class="topbar-right">
+      <div id="liveClock" class="live-clock" title="Local time">
+        <span id="clockTime" class="clock-time">--:--:--</span>
+        <span id="clockDate" class="clock-date">—</span>
+      </div>
+      <button id="settingsBtn" class="ghost-btn" title="Data source settings">⚙︎ Data source</button>
+    </div>
   </header>
 
   <section class="search-panel">
@@ -53,6 +59,56 @@
       <button id="closeDrawer" class="ghost-btn full">Close</button>
     </div>
   </div>
+
+  <!-- ===================== LIVE DASHBOARD ===================== -->
+  <section class="dashboard">
+    <!-- Live market indices -->
+    <div class="card">
+      <div class="card-head">
+        <h3>📡 Live market data <span class="muted small">— key Indian indices &amp; rates</span></h3>
+        <span id="liveStatus" class="live-status">● live</span>
+      </div>
+      <div id="liveMarketGrid" class="macro-grid"></div>
+      <p class="muted small">Auto-refreshes every 60s via Yahoo Finance (through a CORS proxy). Prices may lag a few minutes and pause outside market hours.</p>
+    </div>
+
+    <div class="dash-cols">
+      <!-- Top gainers -->
+      <div class="card">
+        <h3>📈 Top gainers</h3>
+        <div id="gainersList" class="mover-list"></div>
+      </div>
+      <!-- Top losers -->
+      <div class="card">
+        <h3>📉 Top losers</h3>
+        <div id="losersList" class="mover-list"></div>
+      </div>
+    </div>
+
+    <!-- AI / breakout watchlist -->
+    <div class="card ai-card">
+      <div class="card-head">
+        <h3>🤖 AI breakout watchlist <span class="muted small">— algorithmic picks, refreshed every 4h</span></h3>
+        <span id="watchlistStamp" class="muted small">—</span>
+      </div>
+      <p class="muted small">A transparent quantitative screener ranks the stock universe for breakout setups
+        (near 52-week highs, above key moving averages, momentum + volume surge, tight consolidation).
+        Each pick shows <em>why</em> it was chosen. This is an algorithm, not a live AI or a stock tip — see the disclaimer.</p>
+      <div id="aiWatchlist" class="ai-list"></div>
+    </div>
+
+    <!-- Personal watchlist -->
+    <div class="card">
+      <div class="card-head">
+        <h3>⭐ My watchlist <span class="muted small">— saved in your browser</span></h3>
+        <form id="watchAddForm" class="watch-add">
+          <input id="watchAddInput" type="text" placeholder="Add ticker e.g. RELIANCE" aria-label="Add to watchlist" />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+      <div id="myWatchlist" class="mover-list"></div>
+    </div>
+  </section>
 
   <main id="results" class="hidden">
     <!-- Header card -->
@@ -167,8 +223,10 @@
     <section class="card disclaimer">
       <strong>⚠️ Important:</strong> This tool is for research and education only. It is <em>not</em> investment advice.
       No model can reliably predict stock prices. Projections are probabilistic scenarios derived from historical
-      behavior and will be wrong when the future differs from the past (which it often does). Do your own research
-      and consult a licensed advisor before investing.
+      behavior and will be wrong when the future differs from the past (which it often does).
+      The <strong>"AI breakout watchlist" is a transparent quantitative screener</strong>, not a live AI or a stock
+      recommendation — a high breakout score means a stock <em>matches a momentum/breakout pattern</em>, which can
+      and does fail. Do your own research and consult a SEBI-registered advisor before investing.
     </section>
   </main>
 
