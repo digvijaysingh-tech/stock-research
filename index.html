@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Research &amp; Projection — NSE/BSE</title>
+  <meta name="description" content="Data-backed technical research and probabilistic price projections for Indian stocks (NSE/BSE)." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📈</span>
+      <div>
+        <h1>Stock Research &amp; Projection</h1>
+        <p class="subtitle">Real data · Technical analysis · Probabilistic outlook — NSE/BSE</p>
+      </div>
+    </div>
+    <button id="settingsBtn" class="ghost-btn" title="Data source settings">⚙︎ Data source</button>
+  </header>
+
+  <section class="search-panel">
+    <form id="searchForm" autocomplete="off">
+      <div class="search-row">
+        <input id="tickerInput" type="text" placeholder="Enter NSE/BSE ticker or name — e.g. RELIANCE, TCS, INFY, HDFCBANK" aria-label="Ticker symbol" />
+        <select id="exchangeSelect" aria-label="Exchange">
+          <option value="NS">NSE</option>
+          <option value="BO">BSE</option>
+        </select>
+        <button type="submit" id="analyzeBtn">Analyze</button>
+      </div>
+      <div class="quick-picks" id="quickPicks">
+        <span class="qp-label">Quick picks:</span>
+      </div>
+    </form>
+  </section>
+
+  <!-- Settings drawer -->
+  <div id="settingsDrawer" class="drawer hidden">
+    <div class="drawer-inner">
+      <h3>Data source settings</h3>
+      <p class="muted">This is a static site with no backend. It fetches <strong>real</strong> market data directly in your browser.</p>
+      <label for="apiKeyInput">Alpha Vantage API key <span class="muted">(optional)</span></label>
+      <input id="apiKeyInput" type="text" placeholder="Paste free key — get one at alphavantage.co/support/#api-key" />
+      <div class="drawer-actions">
+        <button id="saveKeyBtn">Save key</button>
+        <button id="clearKeyBtn" class="ghost-btn">Clear</button>
+      </div>
+      <p class="muted small">Stored only in your browser's localStorage. If no key is set (or it hits its daily limit), the site falls back to a keyless Yahoo Finance source via a public CORS proxy. Keyless mode can be flakier.</p>
+      <hr/>
+      <label class="checkbox"><input type="checkbox" id="preferYahoo" /> Prefer keyless Yahoo source (skip Alpha Vantage)</label>
+      <button id="closeDrawer" class="ghost-btn full">Close</button>
+    </div>
+  </div>
+
+  <main id="results" class="hidden">
+    <!-- Header card -->
+    <section class="card headline-card">
+      <div class="headline-left">
+        <h2 id="stockName">—</h2>
+        <div class="price-line">
+          <span id="lastPrice" class="last-price">—</span>
+          <span id="priceChange" class="price-change">—</span>
+          <span id="asOf" class="muted small">—</span>
+        </div>
+      </div>
+      <div class="signal-badge" id="signalBadge">
+        <span class="signal-label">SIGNAL</span>
+        <span id="signalText" class="signal-text">—</span>
+        <span id="signalScore" class="signal-score">—</span>
+      </div>
+    </section>
+
+    <!-- Verdict / rationale -->
+    <section class="card">
+      <h3>Verdict — will it go up?</h3>
+      <p id="verdictSummary" class="verdict-summary">—</p>
+      <div class="rationale">
+        <h4>Why (transparent scoring)</h4>
+        <ul id="rationaleList" class="rationale-list"></ul>
+      </div>
+    </section>
+
+    <!-- Price chart -->
+    <section class="card">
+      <div class="card-head">
+        <h3>Price &amp; moving averages</h3>
+        <div class="range-toggle" id="rangeToggle">
+          <button data-range="6mo">6M</button>
+          <button data-range="1y" class="active">1Y</button>
+          <button data-range="2y">2Y</button>
+          <button data-range="5y">5Y</button>
+        </div>
+      </div>
+      <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+    </section>
+
+    <!-- Indicators grid -->
+    <section class="card">
+      <h3>Technical snapshot</h3>
+      <div id="indicatorGrid" class="indicator-grid"></div>
+    </section>
+
+    <!-- Momentum charts -->
+    <section class="card two-col">
+      <div>
+        <h3>RSI (14)</h3>
+        <div class="chart-wrap short"><canvas id="rsiChart"></canvas></div>
+      </div>
+      <div>
+        <h3>MACD</h3>
+        <div class="chart-wrap short"><canvas id="macdChart"></canvas></div>
+      </div>
+    </section>
+
+    <!-- Projection -->
+    <section class="card">
+      <div class="card-head">
+        <h3>Probabilistic projection</h3>
+        <div class="drift-toggle" id="driftToggle">
+          <label>Drift assumption:</label>
+          <button data-drift="full" class="active">Historical</button>
+          <button data-drift="half">Half (cautious)</button>
+          <button data-drift="zero">Zero (conservative)</button>
+        </div>
+      </div>
+      <p class="muted small">Cones are built from this stock's own historical daily drift &amp; volatility (log-normal model). They are <strong>statistical scenarios, not predictions</strong>. Bear = 10th percentile, Base = median, Bull = 90th percentile.</p>
+      <div class="chart-wrap"><canvas id="projChart"></canvas></div>
+
+      <h4 class="section-sub">Next ~5 weeks</h4>
+      <div class="table-wrap"><table id="weeksTable" class="proj-table"></table></div>
+
+      <h4 class="section-sub">Next ~5 months</h4>
+      <div class="table-wrap"><table id="monthsTable" class="proj-table"></table></div>
+    </section>
+
+    <section class="card disclaimer">
+      <strong>⚠️ Important:</strong> This tool is for research and education only. It is <em>not</em> investment advice.
+      No model can reliably predict stock prices. Projections are probabilistic scenarios derived from historical
+      behavior and will be wrong when the future differs from the past (which it often does). Do your own research
+      and consult a licensed advisor before investing.
+    </section>
+  </main>
+
+  <div id="loader" class="loader hidden">
+    <div class="spinner"></div>
+    <p id="loaderText">Fetching market data…</p>
+  </div>
+
+  <div id="errorBox" class="error-box hidden"></div>
+
+  <footer class="footer">
+    <p>Built for research. Data via Alpha Vantage / Yahoo Finance. Not affiliated with any exchange. Not investment advice.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
