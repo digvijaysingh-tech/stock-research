@@ -13,6 +13,22 @@ const CORS_PROXIES = [
   (url) => `https://thingproxy.freeboard.io/fetch/${url}`,
 ];
 
+// Reusable: fetch a URL through the CORS-proxy chain, returning the first success.
+// asJson=true parses JSON; otherwise returns text. Throws if all proxies fail.
+export async function fetchViaProxy(url, asJson = false) {
+  let lastErr;
+  for (const wrap of CORS_PROXIES) {
+    try {
+      const res = await fetch(wrap(url));
+      if (!res.ok) { lastErr = new Error(`proxy HTTP ${res.status}`); continue; }
+      const txt = await res.text();
+      if (!txt || txt.length < 10) { lastErr = new Error('empty response'); continue; }
+      return asJson ? JSON.parse(txt) : txt;
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr || new Error('all proxies failed');
+}
+
 export function getApiKey() {
   return (localStorage.getItem(LS_KEY) || '').trim();
 }

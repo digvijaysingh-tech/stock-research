@@ -20,6 +20,26 @@ and shows **probabilistic price projections** for the next ~5 weeks and ~5 month
 - **Probabilistic projection**: a log-normal (Geometric Brownian Motion) model produces bear (10th %),
   base (median), and bull (90th %) price cones per week and per month, plus the modeled probability the
   price is above today's. A drift toggle (Historical / Half / Zero) lets you be more conservative.
+- **Reads the world** (context layer):
+  - **News, results & filings** via Google News RSS, with a lightweight headline-sentiment scan that
+    feeds back into the signal as an extra weighted factor (so it *reads* the news, not just lists it).
+  - **Market backdrop**: Nifty 50, Sensex, India VIX, USD/INR, Brent crude — plus a VIX-based risk note.
+  - **Fundamentals & earnings**: P/E, forward P/E, EPS, PEG, market cap, dividend yield, margins, ROE,
+    analyst mean target (cross-checked vs current price), and the last 4 quarters' EPS-vs-estimate surprises.
+  - **Reddit discussions**: best-effort retail-chatter feed.
+
+### Honest limits of the context layer (verified live)
+
+| Data | Status | Notes |
+|---|---|---|
+| News headlines | ✅ Keyless | Google News RSS via CORS proxy |
+| Macro backdrop | ✅ Keyless | Yahoo quotes via CORS proxy |
+| Fundamentals & earnings | 🔑 **Needs Alpha Vantage key** | No reliable keyless source — Yahoo now requires an auth crumb. Free tier = 25 calls/day. |
+| Company filings | ⚠️ Via news | No free CORS-accessible BSE/NSE filings API; surfaced through news headlines. Verify on official disclosures. |
+| Reddit | ⚠️ Best-effort | Reddit blocks anonymous access (HTTP 403) intermittently; falls back to an "open on Reddit" link. |
+
+The context feeds load **asynchronously and independently** — the core price analysis renders immediately
+and never waits on (or breaks because of) a slow/blocked feed.
 
 ## Run locally
 

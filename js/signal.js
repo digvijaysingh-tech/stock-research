@@ -6,7 +6,7 @@
 export function computeSignal(ctx) {
   const {
     price, sma20, sma50, sma200, rsiVal, macdVal, macdSignal, macdHist,
-    boll, week52, annVol, mu, recentReturn20
+    boll, week52, annVol, recentReturn20, newsSentiment
   } = ctx;
 
   const factors = [];
@@ -92,6 +92,15 @@ export function computeSignal(ctx) {
     add('Recent 1-month return', pts,
       `${pct >= 0 ? '+' : ''}${pct.toFixed(1)}% over the last ~month.`,
       10);
+  }
+
+  // 9. News sentiment (weight 12) — only when we actually have headlines to read.
+  if (newsSentiment && newsSentiment.n > 0) {
+    const pts = Math.round(newsSentiment.score * 12); // score in [-1,1] -> [-12,12]
+    const mood = pts > 2 ? 'net positive' : pts < -2 ? 'net negative' : 'mixed/neutral';
+    add('Recent news tone', pts,
+      `${newsSentiment.n} recent headlines scanned: ${newsSentiment.pos} positive, ${newsSentiment.neg} negative — tone is ${mood}.`,
+      12);
   }
 
   // Normalize: sum of points / sum of weights * 100

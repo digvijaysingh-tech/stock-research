@@ -3,6 +3,7 @@ import { fetchHistory, getApiKey, setApiKey, getPreferYahoo, setPreferYahoo } fr
 import { sma, ema, rsi, macd, bollinger, logReturns, annualizedVol, fiftyTwoWeek } from './indicators.js';
 import { computeSignal } from './signal.js';
 import { estimateParams, project, weeklyHorizons, monthlyHorizons } from './projection.js';
+import { fetchNews, scoreHeadlines, fetchFundamentals, fetchMacro, macroRiskNote, fetchReddit } from './context.js';
 
 const QUICK = ['RELIANCE', 'TCS', 'INFY', 'HDFCBANK', 'ICICIBANK', 'SBIN', 'ITC', 'TATAMOTORS', 'WIPRO', 'BAJFINANCE'];
 const INR = new Intl.NumberFormat('en-IN', { maximumFractionDigits: 2 });
@@ -39,6 +40,10 @@ const els = {
   settingsBtn: $('settingsBtn'), settingsDrawer: $('settingsDrawer'), closeDrawer: $('closeDrawer'),
   apiKeyInput: $('apiKeyInput'), saveKeyBtn: $('saveKeyBtn'), clearKeyBtn: $('clearKeyBtn'),
   preferYahoo: $('preferYahoo'),
+  macroGrid: $('macroGrid'), macroNote: $('macroNote'),
+  fundamentalsBody: $('fundamentalsBody'),
+  newsList: $('newsList'), newsSentimentBadge: $('newsSentimentBadge'),
+  redditBody: $('redditBody'),
 };
 
 // ---------- Quick picks ----------
@@ -103,10 +108,46 @@ async function runAnalysis() {
     hideLoader();
     els.results.classList.remove('hidden');
     els.results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Load the "reads the world" context asynchronously — never blocks core analysis.
+    loadContext();
   } catch (err) {
     showError(err.message);
   }
 }
+
+// ---------- Context (news / fundamentals / macro / reddit) ----------
+// Each feed is independent and best-effort: one failing never breaks the others.
+async function loadContext() {
+  const name = state.meta?.shortName || state.meta?.longName || state.ticker;
+  setPlaceholder(els.macroGrid, 'Loading market backdrop…');
+  setPlaceholder(els.fundamentalsBody, 'Loading fundamentals…');
+  setPlaceholder(els.newsList, 'Loading news…', 'li');
+  setPlaceholder(els.redditBody, 'Loading Reddit discussions…');
+
+  // News first — it feeds back into the signal score.
+  fetchNews(state.ticker, name)
+    .then((items) => { const s = scoreHeadlines(items); renderNews(items, s); rescoreWithNews(s); })
+    .catch(() => renderFeedError(els.newsList, 'Could not load news (a CORS proxy may be down). Try again shortly.', 'li'));
+
+  fetchMacro()
+    .then(renderMacro)
+    .catch(() => renderFeedError(els.macroGrid, 'Could not load market backdrop right now.'));
+
+  fetchFundamentals(state.ticker)
+    .then(renderFundamentals)
+    .catch(() => renderFeedError(els.fundamentalsBody, 'Could not load fundamentals.'));
+
+  fetchReddit(state.ticker, name)
+    .then(renderReddit)
+    .catch(() => renderReddit({ available: false, reason: 'blocked', browseLink: `https://www.reddit.com/search/?q=${encodeURIComponent(state.ticker)}` }));
+}
+
+function setPlaceholder(el, msg, childTag) {
+  clear(el);
+  const node = childTag === 'li' ? h('li', { class: 'muted small', text: msg }) : h('p', { class: 'muted small', text: msg });
+  el.appendChild(node);
+}
+function renderFeedError(el, msg, childTag) { setPlaceholder(el, msg, childTag); }
 
 // ---------- Compute ----------
 function computeAll() {
@@ -127,17 +168,18 @@ function computeAll() {
   const recentReturn20 = n > 21 ? (price / closes[n - 21] - 1) : null;
   const last = (arr) => arr[arr.length - 1];
 
-  const sig = computeSignal({
+  const sigContext = {
     price,
     sma20: last(s20), sma50: last(s50), sma200: last(s200),
     rsiVal: last(rsiArr),
     macdVal: last(macdObj.macd), macdSignal: last(macdObj.signal), macdHist: last(macdObj.hist),
     boll: { upper: last(boll.upper), lower: last(boll.lower), mid: last(boll.mid) },
-    week52, annVol, mu: null, recentReturn20,
-  });
+    week52, annVol, recentReturn20, newsSentiment: null,
+  };
+  const sig = computeSignal(sigContext);
 
   const { mu, sigma, nReturns } = estimateParams(closes, 252);
-  state.analysis = { closes, price, prev, s20, s50, s200, e20, rsiArr, macdObj, boll, annVol, week52, recentReturn20, sig, mu, sigma, nReturns };
+  state.analysis = { closes, price, prev, s20, s50, s200, e20, rsiArr, macdObj, boll, annVol, week52, recentReturn20, sig, mu, sigma, nReturns, sigContext };
 
   renderHeadline();
   renderSignal();
@@ -363,6 +405,139 @@ function renderProjTable(tableEl, proj, S0, unitLabel) {
   ])));
   tableEl.appendChild(thead);
   tableEl.appendChild(body);
+}
+
+// ---------- Render: news ----------
+function renderNews(items, sentiment) {
+  clear(els.newsList);
+  if (!items.length) { setPlaceholder(els.newsList, 'No recent news found.', 'li'); els.newsSentimentBadge.textContent = ''; return; }
+  // Sentiment badge
+  const cls = sentiment.score > 0.1 ? 'pos' : sentiment.score < -0.1 ? 'neg' : 'neu';
+  const word = cls === 'pos' ? 'Positive' : cls === 'neg' ? 'Negative' : 'Mixed';
+  els.newsSentimentBadge.className = 'news-sentiment ' + cls;
+  els.newsSentimentBadge.textContent = `News tone: ${word} (${sentiment.pos}▲ / ${sentiment.neg}▼ of ${sentiment.n})`;
+
+  items.forEach((it) => {
+    const dotCls = it.sentiment || 'neu';
+    const link = h('a', { text: it.title, attrs: { href: it.link, target: '_blank', rel: 'noopener noreferrer' } });
+    const meta = h('div', { class: 'n-meta', text: [it.source, it.date].filter(Boolean).join(' · ') });
+    els.newsList.appendChild(h('li', {}, [
+      h('span', { class: `news-dot ${dotCls}` }),
+      h('div', {}, [link, meta]),
+    ]));
+  });
+}
+
+// Re-run the signal with the news sentiment folded in, and re-render the verdict.
+function rescoreWithNews(sentiment) {
+  const a = state.analysis;
+  if (!a) return;
+  a.sigContext.newsSentiment = sentiment;
+  a.sig = computeSignal(a.sigContext);
+  renderSignal();
+}
+
+// ---------- Render: macro ----------
+function renderMacro(macro) {
+  clear(els.macroGrid);
+  if (!macro.length) { setPlaceholder(els.macroGrid, 'Market backdrop unavailable right now.'); return; }
+  macro.forEach((m) => {
+    const up = (m.chgPct ?? 0) >= 0;
+    const chgTxt = m.chgPct != null ? `${up ? '▲ +' : '▼ '}${m.chgPct.toFixed(2)}%` : '—';
+    els.macroGrid.appendChild(h('div', { class: 'macro-item' }, [
+      h('div', { class: 'm-label', text: m.label }),
+      h('div', { class: 'm-price', text: INR.format(m.price) }),
+      h('div', { class: `m-chg ${up ? 'up' : 'down'}`, text: chgTxt }),
+    ]));
+  });
+  const note = macroRiskNote(macro);
+  els.macroNote.textContent = note ? note.text : '';
+}
+
+// ---------- Render: fundamentals + earnings ----------
+function renderFundamentals(f) {
+  clear(els.fundamentalsBody);
+  if (!f.available) {
+    const msg = f.reason === 'no-key'
+      ? 'Add a free Alpha Vantage API key (⚙︎ Data source) to see P/E, EPS, market cap, analyst targets and quarterly earnings. There is no reliable keyless source for Indian fundamentals.'
+      : f.reason === 'rate-limit'
+      ? 'Alpha Vantage rate limit hit (free tier allows 25 calls/day). Try again later.'
+      : f.reason === 'unsupported'
+      ? 'Fundamentals not available for this symbol on Alpha Vantage\'s free tier (Indian coverage is partial).'
+      : 'Fundamentals unavailable right now.';
+    els.fundamentalsBody.appendChild(h('div', { class: 'info-note', text: msg }));
+    return;
+  }
+  const bn = (v) => v == null ? '—' : v >= 1e12 ? '₹' + (v / 1e12).toFixed(2) + 'T' : v >= 1e9 ? '₹' + (v / 1e9).toFixed(2) + 'B' : '₹' + INR.format(v);
+  const pctv = (v) => v == null ? '—' : (v * 100).toFixed(1) + '%';
+  const numv = (v) => v == null ? '—' : INR.format(v);
+  const cells = [
+    ['P/E (TTM)', numv(f.pe)],
+    ['Forward P/E', numv(f.forwardPe)],
+    ['EPS', f.eps == null ? '—' : '₹' + numv(f.eps)],
+    ['PEG', numv(f.pegRatio)],
+    ['Market cap', bn(f.marketCap)],
+    ['Dividend yield', f.dividendYield == null ? '—' : pctv(f.dividendYield)],
+    ['Profit margin', f.profitMargin == null ? '—' : pctv(f.profitMargin)],
+    ['ROE (TTM)', f.roe == null ? '—' : pctv(f.roe)],
+    ['Analyst target', f.analystTarget == null ? '—' : '₹' + numv(f.analystTarget)],
+  ];
+  const grid = h('div', { class: 'fund-grid' });
+  cells.forEach(([label, val]) => grid.appendChild(h('div', { class: 'fund-item' }, [
+    h('div', { class: 'f-label', text: label }),
+    h('div', { class: 'f-value', text: val }),
+  ])));
+  const head = h('p', { class: 'muted small', text: `${f.name || state.ticker}${f.sector ? ' · ' + f.sector : ''}${f.industry ? ' · ' + f.industry : ''}` });
+  els.fundamentalsBody.appendChild(head);
+  els.fundamentalsBody.appendChild(grid);
+
+  // Analyst target vs current price — a forward-looking cross-check
+  if (f.analystTarget != null && state.analysis?.price) {
+    const upside = ((f.analystTarget / state.analysis.price) - 1) * 100;
+    const dir = upside >= 0 ? 'above' : 'below';
+    els.fundamentalsBody.appendChild(h('p', { class: 'muted small',
+      text: `Analyst mean target of ₹${numv(f.analystTarget)} is ${Math.abs(upside).toFixed(1)}% ${dir} the current price — an external, fundamentals-based view to weigh against the technical signal.` }));
+  }
+
+  // Earnings surprises table
+  if (f.quarters && f.quarters.length) {
+    const thead = h('thead', {}, [h('tr', {}, [
+      h('th', { text: 'Quarter' }), h('th', { text: 'Reported EPS' }), h('th', { text: 'Estimated EPS' }), h('th', { text: 'Surprise' }),
+    ])]);
+    const body = h('tbody', {}, f.quarters.map((q) => {
+      const sc = q.surprisePct == null ? 'muted' : q.surprisePct >= 0 ? 'up' : 'down';
+      const st = q.surprisePct == null ? '—' : `${q.surprisePct >= 0 ? '+' : ''}${q.surprisePct.toFixed(1)}%`;
+      return h('tr', {}, [
+        h('td', { text: q.date }),
+        h('td', { text: q.reported == null ? '—' : numv(q.reported) }),
+        h('td', { text: q.estimated == null ? '—' : numv(q.estimated) }),
+        h('td', { class: sc, text: st }),
+      ]);
+    }));
+    const table = h('table', { class: 'earnings-table' }, [thead, body]);
+    els.fundamentalsBody.appendChild(h('h4', { class: 'section-sub', text: 'Recent quarterly earnings vs estimates' }));
+    els.fundamentalsBody.appendChild(table);
+  }
+}
+
+// ---------- Render: reddit ----------
+function renderReddit(data) {
+  clear(els.redditBody);
+  if (data.available && data.posts?.length) {
+    const list = h('ul', { class: 'reddit-list' });
+    data.posts.forEach((p) => list.appendChild(h('li', {}, [
+      h('a', { text: p.title, attrs: { href: p.link, target: '_blank', rel: 'noopener noreferrer' } }),
+      h('div', { class: 'r-meta', text: `${p.subreddit} · ${p.score}↑ · ${p.comments} comments` }),
+    ])));
+    els.redditBody.appendChild(list);
+    return;
+  }
+  // Graceful fallback — Reddit blocks anonymous access intermittently.
+  const note = h('div', { class: 'info-note' }, [
+    document.createTextNode('Reddit blocks anonymous access, so live discussions could not be loaded right now. '),
+    h('a', { text: 'Open this search on Reddit →', attrs: { href: data.browseLink, target: '_blank', rel: 'noopener noreferrer' } }),
+  ]);
+  els.redditBody.appendChild(note);
 }
 
 // ---------- Boot ----------
