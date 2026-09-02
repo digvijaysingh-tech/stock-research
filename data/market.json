@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T08:29:42.758Z",
+  "generatedAt": "2026-09-02T16:07:12.186Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -9,164 +9,164 @@
     {
       "sym": "COALINDIA",
       "name": "COAL INDIA LTD",
-      "price": 415.5,
-      "dayChg": 3.46,
-      "ret1m": 0,
-      "nearHighPct": 84.58
+      "price": 417.85,
+      "dayChg": 4.05,
+      "ret1m": 0.57,
+      "nearHighPct": 85.06
     },
     {
       "sym": "ADANIGREEN",
       "name": "ADANI GREEN ENERGY LTD",
-      "price": 1293.5,
-      "dayChg": 2.25,
-      "ret1m": -6.27,
-      "nearHighPct": 79.28
+      "price": 1296,
+      "dayChg": 2.45,
+      "ret1m": -6.09,
+      "nearHighPct": 79.44
     },
     {
       "sym": "VBL",
       "name": "VARUN BEVERAGES LIMITED",
-      "price": 412.9,
-      "dayChg": 1.74,
-      "ret1m": -5.51,
-      "nearHighPct": 74.29
+      "price": 415,
+      "dayChg": 2.25,
+      "ret1m": -5.03,
+      "nearHighPct": 74.67
     },
     {
-      "sym": "ADANIPORTS",
-      "name": "ADANI PORT & SEZ LTD",
-      "price": 1672.8,
-      "dayChg": 1.54,
-      "ret1m": -1.6,
-      "nearHighPct": 88.46
-    },
-    {
-      "sym": "SHREECEM",
-      "name": "SHREE CEMENT LIMITED",
-      "price": 23550,
-      "dayChg": 1.51,
-      "ret1m": -12.45,
-      "nearHighPct": 76.59
+      "sym": "ADANIPOWER",
+      "name": "ADANI POWER LTD",
+      "price": 207.7,
+      "dayChg": 1.63,
+      "ret1m": -0.62,
+      "nearHighPct": 81.71
     },
     {
       "sym": "PNB",
       "name": "PUNJAB NATIONAL BANK",
-      "price": 116.77,
-      "dayChg": 1.35,
-      "ret1m": 2.84,
-      "nearHighPct": 86.4
+      "price": 117,
+      "dayChg": 1.54,
+      "ret1m": 3.04,
+      "nearHighPct": 86.57
     },
     {
-      "sym": "POWERGRID",
-      "name": "POWER GRID CORP. LTD.",
-      "price": 267.6,
-      "dayChg": 1.15,
-      "ret1m": -5.02,
-      "nearHighPct": 82.35
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1672.7,
+      "dayChg": 1.53,
+      "ret1m": -1.61,
+      "nearHighPct": 88.45
+    },
+    {
+      "sym": "BANKBARODA",
+      "name": "BANK OF BARODA",
+      "price": 241.2,
+      "dayChg": 1.47,
+      "ret1m": -1.79,
+      "nearHighPct": 74.1
     },
     {
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
-      "price": 2896.2,
-      "dayChg": 1.13,
-      "ret1m": -5.04,
-      "nearHighPct": 89.25
+      "price": 2891.8,
+      "dayChg": 0.97,
+      "ret1m": -5.19,
+      "nearHighPct": 89.12
     }
   ],
   "losers": [
     {
       "sym": "HEROMOTOCO",
       "name": "HERO MOTOCORP LIMITED",
-      "price": 5215,
-      "dayChg": -6.12,
-      "ret1m": -8.35,
-      "nearHighPct": 81.63
-    },
-    {
-      "sym": "ASIANPAINT",
-      "name": "ASIAN PAINTS LIMITED",
-      "price": 2519,
-      "dayChg": -5.07,
-      "ret1m": -9.23,
-      "nearHighPct": 84.37
+      "price": 5300,
+      "dayChg": -4.59,
+      "ret1m": -6.85,
+      "nearHighPct": 82.96
     },
     {
       "sym": "EICHERMOT",
       "name": "EICHER MOTORS LTD",
-      "price": 7598,
-      "dayChg": -4.67,
-      "ret1m": -4.86,
-      "nearHighPct": 92.32
+      "price": 7711.5,
+      "dayChg": -3.24,
+      "ret1m": -3.44,
+      "nearHighPct": 93.7
     },
     {
-      "sym": "DLF",
-      "name": "DLF LIMITED",
-      "price": 663.55,
-      "dayChg": -3.98,
-      "ret1m": 3.13,
-      "nearHighPct": 83.49
+      "sym": "WIPRO",
+      "name": "WIPRO LTD",
+      "price": 177.09,
+      "dayChg": -2.54,
+      "ret1m": -5.29,
+      "nearHighPct": 64.84
     },
     {
-      "sym": "GRASIM",
-      "name": "GRASIM INDUSTRIES LTD",
-      "price": 3269.1,
-      "dayChg": -3.02,
-      "ret1m": 4.18,
-      "nearHighPct": 95.84
+      "sym": "HAVELLS",
+      "name": "HAVELLS INDIA LIMITED",
+      "price": 1193,
+      "dayChg": -2.44,
+      "ret1m": -7.52,
+      "nearHighPct": 73.59
     },
     {
       "sym": "BAJAJ-AUTO",
       "name": "BAJAJ AUTO LIMITED",
-      "price": 12005,
-      "dayChg": -2.88,
-      "ret1m": 1.74,
-      "nearHighPct": 96.27
+      "price": 12130,
+      "dayChg": -1.87,
+      "ret1m": 2.8,
+      "nearHighPct": 97.27
     },
     {
-      "sym": "SUNPHARMA",
-      "name": "SUN PHARMACEUTICAL IND L",
-      "price": 1929.4,
-      "dayChg": -2.79,
-      "ret1m": -1.76,
-      "nearHighPct": 94.26
+      "sym": "ASIANPAINT",
+      "name": "ASIAN PAINTS LIMITED",
+      "price": 2527.5,
+      "dayChg": -1.86,
+      "ret1m": -8.42,
+      "nearHighPct": 84.65
     },
     {
-      "sym": "BRITANNIA",
-      "name": "BRITANNIA INDUSTRIES LTD",
-      "price": 5110.5,
-      "dayChg": -2.66,
-      "ret1m": -6.71,
-      "nearHighPct": 80.66
+      "sym": "TATACONSUM",
+      "name": "TATA CONSUMER PRODUCT LTD",
+      "price": 1012,
+      "dayChg": -1.8,
+      "ret1m": -7.69,
+      "nearHighPct": 78.9
+    },
+    {
+      "sym": "HDFCBANK",
+      "name": "HDFC BANK LTD",
+      "price": 700.8,
+      "dayChg": -1.56,
+      "ret1m": -4.65,
+      "nearHighPct": 68.67
     }
   ],
   "watchlist": [
     {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9226.5,
-      "dayChg": -2.54,
-      "score": 93,
-      "nearHighPct": 97.46,
-      "volSurge": 1.4,
-      "ret1m": 10.13,
-      "hi52": 9467,
-      "lo52": 5636.5,
+      "sym": "BAJAJ-AUTO",
+      "name": "BAJAJ AUTO LIMITED",
+      "price": 12130,
+      "dayChg": -1.87,
+      "score": 88,
+      "nearHighPct": 97.27,
+      "volSurge": 1.7,
+      "ret1m": 2.8,
+      "hi52": 12470,
+      "lo52": 8491.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
         "At 97% of 52-week high — breakout zone",
-        "Rising volume (1.4x avg)",
-        "Strong 1-month momentum (+10%)"
+        "Rising volume (1.7x avg)",
+        "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "ETERNAL",
       "name": "ETERNAL LIMITED",
-      "price": 326.6,
-      "dayChg": -0.35,
+      "price": 327.3,
+      "dayChg": -0.14,
       "score": 84,
-      "nearHighPct": 88.64,
-      "volSurge": 2.7,
-      "ret1m": 5.24,
+      "nearHighPct": 88.83,
+      "volSurge": 2.8,
+      "ret1m": 5.46,
       "hi52": 368.45,
       "lo52": 212.6,
       "reasons": [
@@ -174,84 +174,103 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Strong volume surge (2.7x avg)",
+        "Strong volume surge (2.8x avg)",
         "Positive 1-month momentum (+5%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
-      "sym": "BAJAJ-AUTO",
-      "name": "BAJAJ AUTO LIMITED",
-      "price": 12005,
-      "dayChg": -2.88,
+      "sym": "TITAN",
+      "name": "TITAN COMPANY LIMITED",
+      "price": 5074,
+      "dayChg": 0.48,
       "score": 78,
-      "nearHighPct": 96.27,
-      "volSurge": 1.5,
-      "ret1m": 1.74,
-      "hi52": 12470,
-      "lo52": 8491.5,
+      "nearHighPct": 97.83,
+      "volSurge": 0.8,
+      "ret1m": 3.29,
+      "hi52": 5186.7,
+      "lo52": 3303.1,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (96%)",
-        "Rising volume (1.5x avg)",
+        "At 98% of 52-week high — breakout zone",
+        "Positive 1-month momentum (+3%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
-      "sym": "JSWSTEEL",
-      "name": "JSW STEEL LIMITED",
-      "price": 1302.4,
-      "dayChg": -0.41,
-      "score": 70,
-      "nearHighPct": 96.4,
-      "volSurge": 0.9,
-      "ret1m": 0.18,
-      "hi52": 1351,
-      "lo52": 1031.2,
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9220,
+      "dayChg": 0.6,
+      "score": 78,
+      "nearHighPct": 97.39,
+      "volSurge": 1.2,
+      "ret1m": 9.92,
+      "hi52": 9467,
+      "lo52": 5636.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (96%)",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "KOTAKBANK",
-      "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 421.95,
-      "dayChg": -0.72,
-      "score": 68,
-      "nearHighPct": 93.1,
-      "volSurge": 0.9,
-      "ret1m": 5.49,
-      "hi52": 453.2,
-      "lo52": 345.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (93%)",
-        "Positive 1-month momentum (+5%)"
+        "At 97% of 52-week high — breakout zone",
+        "Positive 1-month momentum (+10%)"
       ]
     },
     {
       "sym": "GRASIM",
       "name": "GRASIM INDUSTRIES LTD",
-      "price": 3269.1,
-      "dayChg": -3.02,
-      "score": 68,
-      "nearHighPct": 95.84,
-      "volSurge": 0.7,
-      "ret1m": 4.18,
+      "price": 3294.9,
+      "dayChg": -0.31,
+      "score": 70,
+      "nearHighPct": 96.59,
+      "volSurge": 0.8,
+      "ret1m": 2.2,
       "hi52": 3411.1,
       "lo52": 2502.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
-        "Approaching 52-week high (96%)",
+        "Above 20-day average",
+        "Approaching 52-week high (97%)",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
+      "sym": "SIEMENS",
+      "name": "SIEMENS LTD",
+      "price": 4018.9,
+      "dayChg": -0.28,
+      "score": 70,
+      "nearHighPct": 96.85,
+      "volSurge": 0.7,
+      "ret1m": 0.98,
+      "hi52": 4149.4,
+      "lo52": 2826,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (97%)",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 673.55,
+      "dayChg": -0.24,
+      "score": 69,
+      "nearHighPct": 84.74,
+      "volSurge": 1.1,
+      "ret1m": 3.77,
+      "hi52": 794.8,
+      "lo52": 489.4,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Building toward 52-week high",
         "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
@@ -259,12 +278,12 @@
     {
       "sym": "PNB",
       "name": "PUNJAB NATIONAL BANK",
-      "price": 116.77,
-      "dayChg": 1.35,
-      "score": 61,
-      "nearHighPct": 86.4,
-      "volSurge": 1.1,
-      "ret1m": 2.84,
+      "price": 117,
+      "dayChg": 1.54,
+      "score": 69,
+      "nearHighPct": 86.57,
+      "volSurge": 1.2,
+      "ret1m": 3.04,
       "hi52": 135.15,
       "lo52": 98.5,
       "reasons": [
@@ -272,61 +291,46 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "TITAN",
-      "name": "TITAN COMPANY LIMITED",
-      "price": 5017.5,
-      "dayChg": -0.64,
-      "score": 60,
-      "nearHighPct": 96.74,
-      "volSurge": 0.7,
-      "ret1m": 2.14,
-      "hi52": 5186.7,
-      "lo52": 3303.1,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Approaching 52-week high (97%)",
+        "Positive 1-month momentum (+3%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "SUNPHARMA",
       "name": "SUN PHARMACEUTICAL IND L",
-      "price": 1929.4,
-      "dayChg": -2.79,
-      "score": 60,
-      "nearHighPct": 94.26,
-      "volSurge": 0.9,
-      "ret1m": -1.76,
+      "price": 1931.7,
+      "dayChg": 0.14,
+      "score": 68,
+      "nearHighPct": 94.37,
+      "volSurge": 1.5,
+      "ret1m": -0.43,
       "hi52": 2046.9,
       "lo52": 1548,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (94%)"
+        "Approaching 52-week high (94%)",
+        "Rising volume (1.5x avg)"
       ]
     },
     {
-      "sym": "SIEMENS",
-      "name": "SIEMENS LTD",
-      "price": 4000,
-      "dayChg": -0.74,
-      "score": 60,
-      "nearHighPct": 96.4,
-      "volSurge": 0.6,
-      "ret1m": -0.01,
-      "hi52": 4149.4,
-      "lo52": 2826,
+      "sym": "KOTAKBANK",
+      "name": "KOTAK MAHINDRA BANK LTD",
+      "price": 423.5,
+      "dayChg": -0.35,
+      "score": 68,
+      "nearHighPct": 93.45,
+      "volSurge": 1,
+      "ret1m": 5.88,
+      "hi52": 453.2,
+      "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (96%)"
+        "Approaching 52-week high (93%)",
+        "Positive 1-month momentum (+6%)"
       ]
     }
   ]
