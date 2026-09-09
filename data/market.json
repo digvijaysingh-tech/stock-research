@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T08:44:33.950Z",
+  "generatedAt": "2026-09-09T16:04:00.684Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -9,183 +9,164 @@
     {
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
-      "price": 3101.3,
+      "price": 3104.7,
       "dayChg": 5.13,
-      "ret1m": 3.53,
-      "nearHighPct": 95.57
+      "ret1m": 3.99,
+      "nearHighPct": 95.68
     },
     {
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
-      "price": 1778.5,
-      "dayChg": 4.01,
-      "ret1m": 6.61,
-      "nearHighPct": 94.05
-    },
-    {
-      "sym": "APOLLOHOSP",
-      "name": "APOLLO HOSPITALS ENTER. L",
-      "price": 8948,
-      "dayChg": 3.45,
-      "ret1m": 0.4,
-      "nearHighPct": 98.87
+      "price": 1775,
+      "dayChg": 3.8,
+      "ret1m": 6.4,
+      "nearHighPct": 93.86
     },
     {
       "sym": "ADANIPOWER",
       "name": "ADANI POWER LTD",
-      "price": 214.92,
-      "dayChg": 3.13,
-      "ret1m": 3.83,
-      "nearHighPct": 84.55
-    },
-    {
-      "sym": "ADANIGREEN",
-      "name": "ADANI GREEN ENERGY LTD",
-      "price": 1326.5,
-      "dayChg": 2.99,
-      "ret1m": -2.89,
-      "nearHighPct": 81.31
+      "price": 214.9,
+      "dayChg": 3.12,
+      "ret1m": 3.82,
+      "nearHighPct": 84.54
     },
     {
       "sym": "COALINDIA",
       "name": "COAL INDIA LTD",
-      "price": 432.75,
-      "dayChg": 2.97,
-      "ret1m": 5.73,
-      "nearHighPct": 88.09
+      "price": 431,
+      "dayChg": 2.56,
+      "ret1m": 5.3,
+      "nearHighPct": 87.74
     },
     {
       "sym": "TATASTEEL",
       "name": "TATA STEEL LIMITED",
-      "price": 188.74,
-      "dayChg": 2.49,
-      "ret1m": 1.36,
+      "price": 188.75,
+      "dayChg": 2.5,
+      "ret1m": 1.37,
       "nearHighPct": 84.11
+    },
+    {
+      "sym": "ADANIGREEN",
+      "name": "ADANI GREEN ENERGY LTD",
+      "price": 1315,
+      "dayChg": 1.78,
+      "ret1m": -1.3,
+      "nearHighPct": 80.6
     },
     {
       "sym": "HINDALCO",
       "name": "HINDALCO  INDUSTRIES  LTD",
-      "price": 1026.3,
-      "dayChg": 1.71,
-      "ret1m": -2.17,
-      "nearHighPct": 87.27
+      "price": 1026.9,
+      "dayChg": 1.77,
+      "ret1m": -2.12,
+      "nearHighPct": 87.32
+    },
+    {
+      "sym": "APOLLOHOSP",
+      "name": "APOLLO HOSPITALS ENTER. L",
+      "price": 8967,
+      "dayChg": 1.47,
+      "ret1m": 2.47,
+      "nearHighPct": 99.08
     }
   ],
   "losers": [
     {
       "sym": "INFY",
       "name": "INFOSYS LIMITED",
-      "price": 1032.6,
-      "dayChg": -4.57,
-      "ret1m": -12.2,
-      "nearHighPct": 59.76
-    },
-    {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1502.3,
-      "dayChg": -3.95,
-      "ret1m": -8.56,
-      "nearHighPct": 81.03
-    },
-    {
-      "sym": "HCLTECH",
-      "name": "HCL TECHNOLOGIES LTD",
-      "price": 1229.9,
-      "dayChg": -3.69,
-      "ret1m": -9.92,
-      "nearHighPct": 69.09
+      "price": 1035,
+      "dayChg": -4.34,
+      "ret1m": -12,
+      "nearHighPct": 59.9
     },
     {
       "sym": "HDFCLIFE",
       "name": "HDFC LIFE INS CO LTD",
-      "price": 516.55,
-      "dayChg": -3.12,
-      "ret1m": -3.63,
-      "nearHighPct": 64.82
+      "price": 514,
+      "dayChg": -3.71,
+      "ret1m": -4.28,
+      "nearHighPct": 64.5
+    },
+    {
+      "sym": "HCLTECH",
+      "name": "HCL TECHNOLOGIES LTD",
+      "price": 1229.8,
+      "dayChg": -3.7,
+      "ret1m": -9.93,
+      "nearHighPct": 69.09
+    },
+    {
+      "sym": "TECHM",
+      "name": "TECH MAHINDRA LIMITED",
+      "price": 1508,
+      "dayChg": -3.27,
+      "ret1m": -7.2,
+      "nearHighPct": 81.34
+    },
+    {
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 655.1,
+      "dayChg": -2.96,
+      "ret1m": 0.77,
+      "nearHighPct": 82.42
     },
     {
       "sym": "WIPRO",
       "name": "WIPRO LTD",
-      "price": 167.58,
-      "dayChg": -2.29,
-      "ret1m": -8.89,
-      "nearHighPct": 61.36
+      "price": 167,
+      "dayChg": -2.62,
+      "ret1m": -9.21,
+      "nearHighPct": 61.15
     },
     {
-      "sym": "TCS",
-      "name": "TATA CONSULTANCY SERV LT",
-      "price": 2213,
-      "dayChg": -1.88,
-      "ret1m": -5.82,
-      "nearHighPct": 66.06
+      "sym": "HDFCBANK",
+      "name": "HDFC BANK LTD",
+      "price": 687.1,
+      "dayChg": -2.26,
+      "ret1m": -5.75,
+      "nearHighPct": 67.33
     },
     {
-      "sym": "HINDUNILVR",
-      "name": "HINDUSTAN UNILEVER LTD.",
-      "price": 1944.1,
-      "dayChg": -1.81,
-      "ret1m": -5.85,
-      "nearHighPct": 72.89
-    },
-    {
-      "sym": "ICICIPRULI",
-      "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 461.5,
-      "dayChg": -1.66,
-      "ret1m": -7.98,
-      "nearHighPct": 65.29
+      "sym": "HEROMOTOCO",
+      "name": "HERO MOTOCORP LIMITED",
+      "price": 5218,
+      "dayChg": -2.17,
+      "ret1m": -11.48,
+      "nearHighPct": 81.68
     }
   ],
   "watchlist": [
     {
-      "sym": "JSWSTEEL",
-      "name": "JSW STEEL LIMITED",
-      "price": 1310.5,
-      "dayChg": 1.02,
-      "score": 88,
-      "nearHighPct": 97,
-      "volSurge": 0.8,
-      "ret1m": 3.26,
-      "hi52": 1351,
-      "lo52": 1073.2,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "At 97% of 52-week high — breakout zone",
-        "Positive 1-month momentum (+3%)",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
       "sym": "DIVISLAB",
       "name": "DIVI S LABORATORIES LTD",
-      "price": 9465.5,
-      "dayChg": -1.14,
-      "score": 85,
-      "nearHighPct": 98.45,
-      "volSurge": 1.2,
-      "ret1m": 10.06,
+      "price": 9488,
+      "dayChg": -0.91,
+      "score": 93,
+      "nearHighPct": 98.68,
+      "volSurge": 1.3,
+      "ret1m": 10.33,
       "hi52": 9615,
       "lo52": 5636.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "At 98% of 52-week high — breakout zone",
+        "At 99% of 52-week high — breakout zone",
+        "Rising volume (1.3x avg)",
         "Strong 1-month momentum (+10%)"
       ]
     },
     {
       "sym": "APOLLOHOSP",
       "name": "APOLLO HOSPITALS ENTER. L",
-      "price": 8948,
-      "dayChg": 3.45,
+      "price": 8967,
+      "dayChg": 1.47,
       "score": 80,
-      "nearHighPct": 98.87,
-      "volSurge": 0.7,
-      "ret1m": 0.4,
+      "nearHighPct": 99.08,
+      "volSurge": 0.8,
+      "ret1m": 2.47,
       "hi52": 9050,
       "lo52": 6696.5,
       "reasons": [
@@ -197,34 +178,34 @@
       ]
     },
     {
-      "sym": "ADANIENT",
-      "name": "ADANI ENTERPRISES LIMITED",
-      "price": 3101.3,
-      "dayChg": 5.13,
+      "sym": "JSWSTEEL",
+      "name": "JSW STEEL LIMITED",
+      "price": 1310,
+      "dayChg": 0.98,
       "score": 78,
-      "nearHighPct": 95.57,
-      "volSurge": 1.1,
-      "ret1m": 3.53,
-      "hi52": 3245,
-      "lo52": 1753,
+      "nearHighPct": 96.97,
+      "volSurge": 0.8,
+      "ret1m": 3.22,
+      "hi52": 1351,
+      "lo52": 1073.2,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (96%)",
-        "Positive 1-month momentum (+4%)",
+        "Approaching 52-week high (97%)",
+        "Positive 1-month momentum (+3%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
-      "price": 1778.5,
-      "dayChg": 4.01,
+      "price": 1775,
+      "dayChg": 3.8,
       "score": 78,
-      "nearHighPct": 94.05,
-      "volSurge": 0.9,
-      "ret1m": 6.61,
+      "nearHighPct": 93.86,
+      "volSurge": 1.1,
+      "ret1m": 6.4,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
@@ -232,19 +213,19 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (94%)",
-        "Positive 1-month momentum (+7%)",
+        "Positive 1-month momentum (+6%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "COALINDIA",
       "name": "COAL INDIA LTD",
-      "price": 432.75,
-      "dayChg": 2.97,
+      "price": 431,
+      "dayChg": 2.56,
       "score": 69,
-      "nearHighPct": 88.09,
-      "volSurge": 1.2,
-      "ret1m": 5.73,
+      "nearHighPct": 87.74,
+      "volSurge": 1.3,
+      "ret1m": 5.3,
       "hi52": 491.25,
       "lo52": 369.6,
       "reasons": [
@@ -252,19 +233,19 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Positive 1-month momentum (+6%)",
+        "Positive 1-month momentum (+5%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "ADANIPOWER",
       "name": "ADANI POWER LTD",
-      "price": 214.92,
-      "dayChg": 3.13,
+      "price": 214.9,
+      "dayChg": 3.12,
       "score": 69,
-      "nearHighPct": 84.55,
-      "volSurge": 0.9,
-      "ret1m": 3.83,
+      "nearHighPct": 84.54,
+      "volSurge": 1,
+      "ret1m": 3.82,
       "hi52": 254.2,
       "lo52": 120,
       "reasons": [
@@ -277,51 +258,70 @@
       ]
     },
     {
+      "sym": "ADANIENT",
+      "name": "ADANI ENTERPRISES LIMITED",
+      "price": 3104.7,
+      "dayChg": 5.13,
+      "score": 68,
+      "nearHighPct": 95.68,
+      "volSurge": 1.2,
+      "ret1m": 3.99,
+      "hi52": 3245,
+      "lo52": 1753,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (96%)",
+        "Positive 1-month momentum (+4%)"
+      ]
+    },
+    {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 416.5,
-      "dayChg": -1.33,
+      "price": 414,
+      "dayChg": -1.25,
       "score": 68,
-      "nearHighPct": 91.9,
-      "volSurge": 0.7,
-      "ret1m": 6.01,
+      "nearHighPct": 91.35,
+      "volSurge": 0.9,
+      "ret1m": 6.02,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (92%)",
+        "Approaching 52-week high (91%)",
         "Positive 1-month momentum (+6%)"
       ]
     },
     {
-      "sym": "BAJAJ-AUTO",
-      "name": "BAJAJ AUTO LIMITED",
-      "price": 11788,
-      "dayChg": -0.77,
+      "sym": "GRASIM",
+      "name": "GRASIM INDUSTRIES LTD",
+      "price": 3300,
+      "dayChg": -0.21,
       "score": 60,
-      "nearHighPct": 94.53,
-      "volSurge": 0.6,
-      "ret1m": 0.75,
-      "hi52": 12470,
-      "lo52": 8491.5,
+      "nearHighPct": 96.74,
+      "volSurge": 0.7,
+      "ret1m": -0.67,
+      "hi52": 3411.1,
+      "lo52": 2502.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
-        "Approaching 52-week high (95%)",
-        "Tight consolidation — coiled for a move"
+        "Above 20-day average",
+        "Approaching 52-week high (97%)"
       ]
     },
     {
       "sym": "GAIL",
       "name": "GAIL (INDIA) LTD",
-      "price": 175.42,
-      "dayChg": 0.19,
+      "price": 174.9,
+      "dayChg": -0.11,
       "score": 60,
-      "nearHighPct": 93.87,
-      "volSurge": 0.9,
-      "ret1m": -1.42,
+      "nearHighPct": 93.59,
+      "volSurge": 1,
+      "ret1m": -1.71,
       "hi52": 186.87,
       "lo52": 134.36,
       "reasons": [
