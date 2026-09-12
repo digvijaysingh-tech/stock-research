@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T08:26:23.894Z",
+  "generatedAt": "2026-09-12T15:09:17.128Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -76,25 +76,17 @@
       "sym": "HINDALCO",
       "name": "HINDALCO  INDUSTRIES  LTD",
       "price": 981.5,
-      "dayChg": -4.42,
-      "ret1m": -8.99,
+      "dayChg": -3.21,
+      "ret1m": -6.19,
       "nearHighPct": 83.46
     },
     {
       "sym": "JSWSTEEL",
       "name": "JSW STEEL LIMITED",
       "price": 1265,
-      "dayChg": -3.44,
-      "ret1m": -0.78,
+      "dayChg": -2.99,
+      "ret1m": -0.39,
       "nearHighPct": 93.63
-    },
-    {
-      "sym": "BRITANNIA",
-      "name": "BRITANNIA INDUSTRIES LTD",
-      "price": 4962,
-      "dayChg": -2.51,
-      "ret1m": -11.63,
-      "nearHighPct": 78.52
     },
     {
       "sym": "EICHERMOT",
@@ -129,12 +121,20 @@
       "nearHighPct": 33.17
     },
     {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9322,
-      "dayChg": -1.75,
-      "ret1m": 9.67,
-      "nearHighPct": 96.95
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 644.5,
+      "dayChg": -1.73,
+      "ret1m": -2.94,
+      "nearHighPct": 81.09
+    },
+    {
+      "sym": "ADANIPOWER",
+      "name": "ADANI POWER LTD",
+      "price": 209.97,
+      "dayChg": -1.65,
+      "ret1m": 2.3,
+      "nearHighPct": 82.6
     }
   ],
   "watchlist": [
@@ -201,11 +201,11 @@
       "sym": "DIVISLAB",
       "name": "DIVI S LABORATORIES LTD",
       "price": 9322,
-      "dayChg": -1.75,
+      "dayChg": -1.23,
       "score": 68,
       "nearHighPct": 96.95,
-      "volSurge": 1.2,
-      "ret1m": 9.67,
+      "volSurge": 0.9,
+      "ret1m": 9.97,
       "hi52": 9615,
       "lo52": 5636.5,
       "reasons": [
@@ -220,11 +220,11 @@
       "sym": "APOLLOHOSP",
       "name": "APOLLO HOSPITALS ENTER. L",
       "price": 8836,
-      "dayChg": -1.46,
+      "dayChg": -0.72,
       "score": 65,
       "nearHighPct": 97.64,
       "volSurge": 0.9,
-      "ret1m": 2.78,
+      "ret1m": 2.74,
       "hi52": 9050,
       "lo52": 6696.5,
       "reasons": [
@@ -235,20 +235,20 @@
       ]
     },
     {
-      "sym": "BAJAJ-AUTO",
-      "name": "BAJAJ AUTO LIMITED",
-      "price": 11678,
-      "dayChg": -0.95,
+      "sym": "GRASIM",
+      "name": "GRASIM INDUSTRIES LTD",
+      "price": 3281.9,
+      "dayChg": -1.12,
       "score": 60,
-      "nearHighPct": 93.65,
-      "volSurge": 0.6,
-      "ret1m": 0.15,
-      "hi52": 12470,
-      "lo52": 8491.5,
+      "nearHighPct": 96.21,
+      "volSurge": 0.7,
+      "ret1m": 0.76,
+      "hi52": 3411.1,
+      "lo52": 2502.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
-        "Approaching 52-week high (94%)",
+        "Approaching 52-week high (96%)",
         "Tight consolidation — coiled for a move"
       ]
     },
