@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T18:10:16.977Z",
+  "generatedAt": "2026-09-12T21:58:04.695Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -160,25 +160,6 @@
       ]
     },
     {
-      "sym": "KOTAKBANK",
-      "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 419,
-      "dayChg": 0.59,
-      "score": 68,
-      "nearHighPct": 92.45,
-      "volSurge": 0.9,
-      "ret1m": 7.12,
-      "hi52": 453.2,
-      "lo52": 345.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (92%)",
-        "Positive 1-month momentum (+7%)"
-      ]
-    },
-    {
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
       "price": 3060,
@@ -195,6 +176,25 @@
         "Above 20-day average",
         "Approaching 52-week high (94%)",
         "Rising volume (1.4x avg)"
+      ]
+    },
+    {
+      "sym": "KOTAKBANK",
+      "name": "KOTAK MAHINDRA BANK LTD",
+      "price": 419,
+      "dayChg": 0.59,
+      "score": 68,
+      "nearHighPct": 92.45,
+      "volSurge": 0.9,
+      "ret1m": 7.12,
+      "hi52": 453.2,
+      "lo52": 345.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (92%)",
+        "Positive 1-month momentum (+7%)"
       ]
     },
     {
