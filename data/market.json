@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T09:15:10.414Z",
+  "generatedAt": "2026-09-15T16:27:38.199Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -9,164 +9,163 @@
     {
       "sym": "HCLTECH",
       "name": "HCL TECHNOLOGIES LTD",
-      "price": 1261.8,
-      "dayChg": 4.62,
-      "ret1m": -4.77,
-      "nearHighPct": 70.88
+      "price": 1253.7,
+      "dayChg": 3.95,
+      "ret1m": -5.38,
+      "nearHighPct": 70.43
     },
     {
       "sym": "INFY",
       "name": "INFOSYS LIMITED",
-      "price": 1075.7,
-      "dayChg": 3.66,
-      "ret1m": -5.63,
-      "nearHighPct": 62.25
-    },
-    {
-      "sym": "TCS",
-      "name": "TATA CONSULTANCY SERV LT",
-      "price": 2271,
-      "dayChg": 3.19,
-      "ret1m": -1.82,
-      "nearHighPct": 67.79
-    },
-    {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1583.8,
-      "dayChg": 2.78,
-      "ret1m": -1.63,
-      "nearHighPct": 85.43
+      "price": 1077,
+      "dayChg": 3.79,
+      "ret1m": -5.52,
+      "nearHighPct": 62.33
     },
     {
       "sym": "DABUR",
       "name": "DABUR INDIA LTD",
-      "price": 386.05,
-      "dayChg": 2.67,
-      "ret1m": -5.1,
-      "nearHighPct": 71.12
+      "price": 384.9,
+      "dayChg": 2.37,
+      "ret1m": -5.38,
+      "nearHighPct": 70.91
     },
     {
-      "sym": "HINDUNILVR",
-      "name": "HINDUSTAN UNILEVER LTD.",
-      "price": 1958,
-      "dayChg": 1.61,
-      "ret1m": -5.73,
-      "nearHighPct": 73.41
+      "sym": "TCS",
+      "name": "TATA CONSULTANCY SERV LT",
+      "price": 2251,
+      "dayChg": 2.28,
+      "ret1m": -2.69,
+      "nearHighPct": 67.19
     },
     {
-      "sym": "HDFCBANK",
-      "name": "HDFC BANK LTD",
-      "price": 718.6,
-      "dayChg": 1.46,
-      "ret1m": -1.43,
-      "nearHighPct": 70.42
+      "sym": "TECHM",
+      "name": "TECH MAHINDRA LIMITED",
+      "price": 1575.9,
+      "dayChg": 2.26,
+      "ret1m": -2.12,
+      "nearHighPct": 85
     },
     {
       "sym": "WIPRO",
       "name": "WIPRO LTD",
-      "price": 169.74,
-      "dayChg": 1.4,
-      "ret1m": -6.68,
-      "nearHighPct": 62.15
+      "price": 170,
+      "dayChg": 1.55,
+      "ret1m": -6.54,
+      "nearHighPct": 62.25
+    },
+    {
+      "sym": "ONGC",
+      "name": "OIL AND NATURAL GAS CORP.",
+      "price": 235.95,
+      "dayChg": 1.48,
+      "ret1m": -1.07,
+      "nearHighPct": 76.73
+    },
+    {
+      "sym": "HDFCBANK",
+      "name": "HDFC BANK LTD",
+      "price": 716.55,
+      "dayChg": 1.17,
+      "ret1m": -1.71,
+      "nearHighPct": 70.22
     }
   ],
   "losers": [
     {
       "sym": "BEL",
       "name": "BHARAT ELECTRONICS LTD",
-      "price": 387.4,
-      "dayChg": -4.19,
-      "ret1m": -6.07,
-      "nearHighPct": 81.82
-    },
-    {
-      "sym": "ADANIENT",
-      "name": "ADANI ENTERPRISES LIMITED",
-      "price": 2948.9,
-      "dayChg": -3.63,
-      "ret1m": -1.94,
-      "nearHighPct": 90.88
-    },
-    {
-      "sym": "ADANIPOWER",
-      "name": "ADANI POWER LTD",
-      "price": 202.69,
-      "dayChg": -3.47,
-      "ret1m": -0.43,
-      "nearHighPct": 79.74
+      "price": 382.9,
+      "dayChg": -5.3,
+      "ret1m": -7.16,
+      "nearHighPct": 80.87
     },
     {
       "sym": "SIEMENS",
       "name": "SIEMENS LTD",
-      "price": 3822.2,
-      "dayChg": -3.41,
-      "ret1m": -3.06,
-      "nearHighPct": 92.11
+      "price": 3770,
+      "dayChg": -4.73,
+      "ret1m": -4.39,
+      "nearHighPct": 90.86
     },
     {
-      "sym": "VEDL",
-      "name": "VEDANTA LIMITED",
-      "price": 255.25,
-      "dayChg": -3.2,
-      "ret1m": -5.36,
-      "nearHighPct": 32.11
+      "sym": "ADANIENT",
+      "name": "ADANI ENTERPRISES LIMITED",
+      "price": 2928.6,
+      "dayChg": -4.29,
+      "ret1m": -2.62,
+      "nearHighPct": 90.25
     },
     {
-      "sym": "GRASIM",
-      "name": "GRASIM INDUSTRIES LTD",
-      "price": 3187.9,
-      "dayChg": -2.86,
-      "ret1m": -1.87,
-      "nearHighPct": 93.46
+      "sym": "ADANIPOWER",
+      "name": "ADANI POWER LTD",
+      "price": 202,
+      "dayChg": -3.8,
+      "ret1m": -0.77,
+      "nearHighPct": 79.46
     },
     {
       "sym": "DLF",
       "name": "DLF LIMITED",
-      "price": 626.65,
-      "dayChg": -2.77,
-      "ret1m": -5.77,
-      "nearHighPct": 78.84
+      "price": 620.85,
+      "dayChg": -3.67,
+      "ret1m": -6.64,
+      "nearHighPct": 78.11
     },
     {
-      "sym": "CHOLAFIN",
-      "name": "CHOLAMANDALAM IN & FIN CO",
-      "price": 1795.3,
-      "dayChg": -2.74,
-      "ret1m": -5.23,
-      "nearHighPct": 91.95
+      "sym": "GRASIM",
+      "name": "GRASIM INDUSTRIES LTD",
+      "price": 3171,
+      "dayChg": -3.38,
+      "ret1m": -2.39,
+      "nearHighPct": 92.96
+    },
+    {
+      "sym": "TITAN",
+      "name": "TITAN COMPANY LIMITED",
+      "price": 4856,
+      "dayChg": -3.06,
+      "ret1m": -4.19,
+      "nearHighPct": 93.62
+    },
+    {
+      "sym": "BAJAJFINSV",
+      "name": "BAJAJ FINSERV LTD.",
+      "price": 1855.5,
+      "dayChg": -3.03,
+      "ret1m": -7.46,
+      "nearHighPct": 84.53
     }
   ],
   "watchlist": [
     {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 414.05,
-      "dayChg": -1.18,
-      "score": 78,
-      "nearHighPct": 91.36,
-      "volSurge": 0.9,
-      "ret1m": 5.44,
+      "price": 409.8,
+      "dayChg": -2.2,
+      "score": 68,
+      "nearHighPct": 90.42,
+      "volSurge": 1,
+      "ret1m": 4.35,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (91%)",
-        "Positive 1-month momentum (+5%)",
+        "Approaching 52-week high (90%)",
+        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "DIVISLAB",
       "name": "DIVI S LABORATORIES LTD",
-      "price": 9218,
-      "dayChg": -1.12,
+      "price": 9198,
+      "dayChg": -1.33,
       "score": 68,
-      "nearHighPct": 95.87,
+      "nearHighPct": 95.66,
       "volSurge": 0.9,
-      "ret1m": 8.68,
+      "ret1m": 8.45,
       "hi52": 9615,
       "lo52": 5636.5,
       "reasons": [
@@ -174,42 +173,25 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (96%)",
-        "Positive 1-month momentum (+9%)"
+        "Positive 1-month momentum (+8%)"
       ]
     },
     {
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
-      "price": 1732.7,
-      "dayChg": -1.81,
+      "price": 1713.8,
+      "dayChg": -2.88,
       "score": 55,
-      "nearHighPct": 91.62,
+      "nearHighPct": 90.62,
       "volSurge": 0.8,
-      "ret1m": 1.92,
+      "ret1m": 0.81,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 20-day average",
-        "Approaching 52-week high (92%)",
+        "Approaching 52-week high (91%)",
         "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "APOLLOHOSP",
-      "name": "APOLLO HOSPITALS ENTER. L",
-      "price": 8798.5,
-      "dayChg": -0.42,
-      "score": 55,
-      "nearHighPct": 97.22,
-      "volSurge": 0.9,
-      "ret1m": -1.37,
-      "hi52": 9050,
-      "lo52": 6696.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 20-day average",
-        "At 97% of 52-week high — breakout zone"
       ]
     }
   ]
