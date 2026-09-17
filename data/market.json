@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:16:16.780Z",
+  "generatedAt": "2026-09-17T16:26:06.515Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -9,144 +9,144 @@
     {
       "sym": "HDFCLIFE",
       "name": "HDFC LIFE INS CO LTD",
-      "price": 558.85,
-      "dayChg": 5.4,
-      "ret1m": 3.11,
-      "nearHighPct": 70.13
+      "price": 557,
+      "dayChg": 5.05,
+      "ret1m": 2.77,
+      "nearHighPct": 69.9
     },
     {
       "sym": "ICICIPRULI",
       "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 494,
-      "dayChg": 5.11,
-      "ret1m": -1.1,
-      "nearHighPct": 69.89
+      "price": 490.5,
+      "dayChg": 4.36,
+      "ret1m": -1.8,
+      "nearHighPct": 69.4
     },
     {
       "sym": "SBILIFE",
       "name": "SBI LIFE INSURANCE CO LTD",
-      "price": 1766.3,
-      "dayChg": 4.03,
-      "ret1m": -0.88,
-      "nearHighPct": 82.85
+      "price": 1766.9,
+      "dayChg": 4.06,
+      "ret1m": -0.85,
+      "nearHighPct": 82.88
     },
     {
       "sym": "DRREDDY",
       "name": "DR. REDDY S LABORATORIES",
-      "price": 1174.3,
-      "dayChg": 3.01,
-      "ret1m": -0.48,
-      "nearHighPct": 83
-    },
-    {
-      "sym": "TATASTEEL",
-      "name": "TATA STEEL LIMITED",
-      "price": 188.42,
-      "dayChg": 2.96,
-      "ret1m": 2.68,
-      "nearHighPct": 83.97
+      "price": 1175,
+      "dayChg": 3.07,
+      "ret1m": -0.42,
+      "nearHighPct": 83.04
     },
     {
       "sym": "DLF",
       "name": "DLF LIMITED",
-      "price": 640.3,
-      "dayChg": 2.81,
-      "ret1m": -4.42,
-      "nearHighPct": 80.56
-    },
-    {
-      "sym": "ETERNAL",
-      "name": "ETERNAL LIMITED",
-      "price": 323.9,
-      "dayChg": 2.18,
-      "ret1m": 1.22,
-      "nearHighPct": 87.91
+      "price": 640,
+      "dayChg": 2.76,
+      "ret1m": -4.46,
+      "nearHighPct": 80.52
     },
     {
       "sym": "BEL",
       "name": "BHARAT ELECTRONICS LTD",
-      "price": 394.1,
-      "dayChg": 2.16,
-      "ret1m": -3.74,
-      "nearHighPct": 83.24
+      "price": 395.45,
+      "dayChg": 2.51,
+      "ret1m": -3.41,
+      "nearHighPct": 83.53
+    },
+    {
+      "sym": "TATASTEEL",
+      "name": "TATA STEEL LIMITED",
+      "price": 187.29,
+      "dayChg": 2.34,
+      "ret1m": 2.07,
+      "nearHighPct": 83.46
+    },
+    {
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9323,
+      "dayChg": 1.8,
+      "ret1m": 8.79,
+      "nearHighPct": 96.96
     }
   ],
   "losers": [
     {
       "sym": "ONGC",
       "name": "OIL AND NATURAL GAS CORP.",
-      "price": 232.37,
-      "dayChg": -1.87,
-      "ret1m": -2.57,
-      "nearHighPct": 75.57
+      "price": 232.43,
+      "dayChg": -1.85,
+      "ret1m": -2.55,
+      "nearHighPct": 75.59
     },
     {
       "sym": "TITAN",
       "name": "TITAN COMPANY LIMITED",
-      "price": 4848.5,
-      "dayChg": -1.22,
-      "ret1m": -4.33,
-      "nearHighPct": 93.48
-    },
-    {
-      "sym": "BANKBARODA",
-      "name": "BANK OF BARODA",
-      "price": 232.54,
-      "dayChg": -1.04,
-      "ret1m": -4.89,
-      "nearHighPct": 71.44
+      "price": 4841,
+      "dayChg": -1.38,
+      "ret1m": -4.48,
+      "nearHighPct": 93.33
     },
     {
       "sym": "HDFCBANK",
       "name": "HDFC BANK LTD",
-      "price": 715.25,
-      "dayChg": -0.87,
-      "ret1m": -1.35,
-      "nearHighPct": 70.09
+      "price": 713,
+      "dayChg": -1.18,
+      "ret1m": -1.66,
+      "nearHighPct": 69.87
+    },
+    {
+      "sym": "BANKBARODA",
+      "name": "BANK OF BARODA",
+      "price": 232.3,
+      "dayChg": -1.14,
+      "ret1m": -4.99,
+      "nearHighPct": 71.37
     },
     {
       "sym": "COALINDIA",
       "name": "COAL INDIA LTD",
-      "price": 418.95,
-      "dayChg": -0.78,
-      "ret1m": 4.09,
-      "nearHighPct": 85.28
+      "price": 418,
+      "dayChg": -1.01,
+      "ret1m": 3.85,
+      "nearHighPct": 85.09
     },
     {
-      "sym": "BAJAJ-AUTO",
-      "name": "BAJAJ AUTO LIMITED",
-      "price": 11504,
-      "dayChg": -0.77,
-      "ret1m": -2.45,
-      "nearHighPct": 92.25
+      "sym": "HINDUNILVR",
+      "name": "HINDUSTAN UNILEVER LTD.",
+      "price": 1942.2,
+      "dayChg": -1.01,
+      "ret1m": -3.88,
+      "nearHighPct": 72.82
     },
     {
-      "sym": "CHOLAFIN",
-      "name": "CHOLAMANDALAM IN & FIN CO",
-      "price": 1752.1,
-      "dayChg": -0.76,
-      "ret1m": -6.48,
-      "nearHighPct": 89.74
+      "sym": "NESTLEIND",
+      "name": "NESTLE INDIA LIMITED",
+      "price": 1370.6,
+      "dayChg": -1,
+      "ret1m": -5.99,
+      "nearHighPct": 88.25
     },
     {
-      "sym": "GRASIM",
-      "name": "GRASIM INDUSTRIES LTD",
-      "price": 3165.3,
-      "dayChg": -0.68,
-      "ret1m": -3.2,
-      "nearHighPct": 92.79
+      "sym": "ICICIBANK",
+      "name": "ICICI BANK LTD.",
+      "price": 1347.6,
+      "dayChg": -0.82,
+      "ret1m": -4.55,
+      "nearHighPct": 91.05
     }
   ],
   "watchlist": [
     {
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
-      "price": 1732.3,
-      "dayChg": 0.49,
-      "score": 70,
-      "nearHighPct": 91.6,
+      "price": 1738.3,
+      "dayChg": 0.84,
+      "score": 78,
+      "nearHighPct": 91.92,
       "volSurge": 0.5,
-      "ret1m": 3,
+      "ret1m": 3.35,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
@@ -154,18 +154,19 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (92%)",
+        "Positive 1-month momentum (+3%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 415.35,
-      "dayChg": 0.08,
+      "price": 416.5,
+      "dayChg": 0.36,
       "score": 68,
-      "nearHighPct": 91.65,
-      "volSurge": 0.9,
-      "ret1m": 4.53,
+      "nearHighPct": 91.9,
+      "volSurge": 1,
+      "ret1m": 4.82,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
@@ -179,12 +180,12 @@
     {
       "sym": "DIVISLAB",
       "name": "DIVI S LABORATORIES LTD",
-      "price": 9305.5,
-      "dayChg": 1.61,
+      "price": 9323,
+      "dayChg": 1.8,
       "score": 68,
-      "nearHighPct": 96.78,
+      "nearHighPct": 96.96,
       "volSurge": 1.2,
-      "ret1m": 8.58,
+      "ret1m": 8.79,
       "hi52": 9615,
       "lo52": 5636.5,
       "reasons": [
