@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T08:37:21.890Z",
+  "generatedAt": "2026-09-19T15:30:54.252Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -21,14 +21,6 @@
       "dayChg": 4.93,
       "ret1m": 7.29,
       "nearHighPct": 96.45
-    },
-    {
-      "sym": "ICICIPRULI",
-      "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 492,
-      "dayChg": 4.68,
-      "ret1m": -1.99,
-      "nearHighPct": 69.61
     },
     {
       "sym": "SIEMENS",
@@ -69,6 +61,14 @@
       "dayChg": 3.43,
       "ret1m": -4.98,
       "nearHighPct": 93.02
+    },
+    {
+      "sym": "ADANIENT",
+      "name": "ADANI ENTERPRISES LIMITED",
+      "price": 3020,
+      "dayChg": 3.42,
+      "ret1m": 0.84,
+      "nearHighPct": 93.07
     }
   ],
   "losers": [
@@ -87,6 +87,14 @@
       "dayChg": -2.92,
       "ret1m": 1.84,
       "nearHighPct": 83.44
+    },
+    {
+      "sym": "SBILIFE",
+      "name": "SBI LIFE INSURANCE CO LTD",
+      "price": 1731,
+      "dayChg": -2.03,
+      "ret1m": -3.45,
+      "nearHighPct": 81.19
     },
     {
       "sym": "MARUTI",
@@ -127,14 +135,6 @@
       "dayChg": -1.47,
       "ret1m": -2.64,
       "nearHighPct": 61.52
-    },
-    {
-      "sym": "RELIANCE",
-      "name": "RELIANCE INDUSTRIES LTD",
-      "price": 1226.4,
-      "dayChg": -1.41,
-      "ret1m": -6.81,
-      "nearHighPct": 76.09
     }
   ],
   "watchlist": [
