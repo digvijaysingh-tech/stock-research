@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:27:14.824Z",
+  "generatedAt": "2026-09-19T22:11:19.758Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -55,20 +55,20 @@
       "nearHighPct": 70.34
     },
     {
-      "sym": "TVSMOTOR",
-      "name": "TVS MOTOR COMPANY  LTD",
-      "price": 4171.3,
-      "dayChg": 3.43,
-      "ret1m": -4.98,
-      "nearHighPct": 93.02
-    },
-    {
       "sym": "BAJFINANCE",
       "name": "BAJAJ FINANCE LIMITED",
       "price": 1040.3,
       "dayChg": 3.39,
       "ret1m": -5,
       "nearHighPct": 88.43
+    },
+    {
+      "sym": "ADANIENT",
+      "name": "ADANI ENTERPRISES LIMITED",
+      "price": 3020,
+      "dayChg": 3.31,
+      "ret1m": 0.77,
+      "nearHighPct": 93.07
     }
   ],
   "losers": [
@@ -241,18 +241,17 @@
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
       "price": 412.5,
-      "dayChg": -0.6,
-      "score": 68,
+      "dayChg": -0.96,
+      "score": 60,
       "nearHighPct": 91.02,
       "volSurge": 1,
-      "ret1m": 3.81,
+      "ret1m": 2.41,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Approaching 52-week high (91%)",
-        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     },
