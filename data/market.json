@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T18:31:38.161Z",
+  "generatedAt": "2026-09-20T22:14:46.097Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -31,14 +31,6 @@
       "nearHighPct": 94.32
     },
     {
-      "sym": "HAVELLS",
-      "name": "HAVELLS INDIA LIMITED",
-      "price": 1132.4,
-      "dayChg": 4.18,
-      "ret1m": -12.01,
-      "nearHighPct": 70.34
-    },
-    {
       "sym": "DRREDDY",
       "name": "DR. REDDY S LABORATORIES",
       "price": 1185,
@@ -55,19 +47,27 @@
       "nearHighPct": 33.66
     },
     {
-      "sym": "TVSMOTOR",
-      "name": "TVS MOTOR COMPANY  LTD",
-      "price": 4171.3,
-      "dayChg": 3.43,
-      "ret1m": -4.98,
-      "nearHighPct": 93.02
+      "sym": "HAVELLS",
+      "name": "HAVELLS INDIA LIMITED",
+      "price": 1132.4,
+      "dayChg": 3.9,
+      "ret1m": -11.39,
+      "nearHighPct": 70.34
+    },
+    {
+      "sym": "BAJFINANCE",
+      "name": "BAJAJ FINANCE LIMITED",
+      "price": 1040.3,
+      "dayChg": 3.39,
+      "ret1m": -5,
+      "nearHighPct": 88.43
     },
     {
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
       "price": 3020,
-      "dayChg": 3.42,
-      "ret1m": 0.84,
+      "dayChg": 3.31,
+      "ret1m": 0.77,
       "nearHighPct": 93.07
     }
   ],
@@ -81,20 +81,20 @@
       "nearHighPct": 62.84
     },
     {
-      "sym": "COALINDIA",
-      "name": "COAL INDIA LTD",
-      "price": 409.9,
-      "dayChg": -2.92,
-      "ret1m": 1.84,
-      "nearHighPct": 83.44
-    },
-    {
       "sym": "SBILIFE",
       "name": "SBI LIFE INSURANCE CO LTD",
       "price": 1731,
       "dayChg": -2.03,
       "ret1m": -3.45,
       "nearHighPct": 81.19
+    },
+    {
+      "sym": "COALINDIA",
+      "name": "COAL INDIA LTD",
+      "price": 409.9,
+      "dayChg": -1.94,
+      "ret1m": 1.16,
+      "nearHighPct": 83.44
     },
     {
       "sym": "MARUTI",
@@ -113,40 +113,61 @@
       "nearHighPct": 78.1
     },
     {
+      "sym": "TATACONSUM",
+      "name": "TATA CONSUMER PRODUCT LTD",
+      "price": 996,
+      "dayChg": -1.75,
+      "ret1m": -5.05,
+      "nearHighPct": 77.65
+    },
+    {
+      "sym": "SUNPHARMA",
+      "name": "SUN PHARMACEUTICAL IND L",
+      "price": 1837.3,
+      "dayChg": -1.61,
+      "ret1m": -3.42,
+      "nearHighPct": 89.76
+    },
+    {
       "sym": "BAJAJ-AUTO",
       "name": "BAJAJ AUTO LIMITED",
       "price": 11414,
       "dayChg": -1.54,
       "ret1m": -3.21,
       "nearHighPct": 91.53
-    },
-    {
-      "sym": "HINDUNILVR",
-      "name": "HINDUSTAN UNILEVER LTD.",
-      "price": 1932,
-      "dayChg": -1.53,
-      "ret1m": -4.73,
-      "nearHighPct": 72.44
-    },
-    {
-      "sym": "ITC",
-      "name": "ITC LTD",
-      "price": 262.3,
-      "dayChg": -1.47,
-      "ret1m": -2.64,
-      "nearHighPct": 61.52
     }
   ],
   "watchlist": [
     {
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9375,
+      "dayChg": 0.56,
+      "score": 96,
+      "nearHighPct": 97.5,
+      "volSurge": 1.4,
+      "ret1m": 9.05,
+      "hi52": 9615,
+      "lo52": 5636.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "At 98% of 52-week high — breakout zone",
+        "Rising volume (1.4x avg)",
+        "Positive 1-month momentum (+9%)",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
       "sym": "APOLLOHOSP",
       "name": "APOLLO HOSPITALS ENTER. L",
       "price": 8944.5,
-      "dayChg": 2.85,
+      "dayChg": 2.01,
       "score": 80,
       "nearHighPct": 98.83,
-      "volSurge": 0.9,
-      "ret1m": 2.4,
+      "volSurge": 1,
+      "ret1m": 2.89,
       "hi52": 9050,
       "lo52": 6696.5,
       "reasons": [
@@ -175,25 +196,6 @@
         "Approaching 52-week high (96%)",
         "Positive 1-month momentum (+7%)",
         "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9375,
-      "dayChg": 2.37,
-      "score": 78,
-      "nearHighPct": 97.5,
-      "volSurge": 1.2,
-      "ret1m": 9.39,
-      "hi52": 9615,
-      "lo52": 5636.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "At 98% of 52-week high — breakout zone",
-        "Positive 1-month momentum (+9%)"
       ]
     },
     {
@@ -239,18 +241,17 @@
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
       "price": 412.5,
-      "dayChg": -0.6,
-      "score": 68,
+      "dayChg": -0.96,
+      "score": 60,
       "nearHighPct": 91.02,
       "volSurge": 1,
-      "ret1m": 3.81,
+      "ret1m": 2.41,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Approaching 52-week high (91%)",
-        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     },
