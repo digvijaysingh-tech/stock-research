@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T03:56:54.846Z",
+  "generatedAt": "2026-09-26T09:15:38.007Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -21,6 +21,14 @@
       "dayChg": 2.14,
       "ret1m": -6.31,
       "nearHighPct": 81.86
+    },
+    {
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 683,
+      "dayChg": 1.88,
+      "ret1m": 0.47,
+      "nearHighPct": 86.84
     },
     {
       "sym": "ADANIPOWER",
@@ -61,41 +69,9 @@
       "dayChg": 1.21,
       "ret1m": -4.29,
       "nearHighPct": 83.9
-    },
-    {
-      "sym": "DLF",
-      "name": "DLF LIMITED",
-      "price": 683,
-      "dayChg": 1.19,
-      "ret1m": 1.01,
-      "nearHighPct": 86.84
     }
   ],
   "losers": [
-    {
-      "sym": "ICICIPRULI",
-      "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 463,
-      "dayChg": -4.44,
-      "ret1m": -9.22,
-      "nearHighPct": 65.51
-    },
-    {
-      "sym": "ADANIENT",
-      "name": "ADANI ENTERPRISES LIMITED",
-      "price": 2916.5,
-      "dayChg": -2.56,
-      "ret1m": -7.97,
-      "nearHighPct": 89.88
-    },
-    {
-      "sym": "KOTAKBANK",
-      "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 404,
-      "dayChg": -2.24,
-      "ret1m": -4.76,
-      "nearHighPct": 89.14
-    },
     {
       "sym": "INFY",
       "name": "INFOSYS LIMITED",
@@ -129,12 +105,36 @@
       "nearHighPct": 85.16
     },
     {
-      "sym": "ADANIPORTS",
-      "name": "ADANI PORT & SEZ LTD",
-      "price": 1788,
-      "dayChg": -1.07,
-      "ret1m": 4.32,
-      "nearHighPct": 94.55
+      "sym": "INDUSINDBK",
+      "name": "INDUSIND BANK LIMITED",
+      "price": 912.2,
+      "dayChg": -0.79,
+      "ret1m": -8.23,
+      "nearHighPct": 84.63
+    },
+    {
+      "sym": "SBILIFE",
+      "name": "SBI LIFE INSURANCE CO LTD",
+      "price": 1742,
+      "dayChg": -0.74,
+      "ret1m": -1.08,
+      "nearHighPct": 81.71
+    },
+    {
+      "sym": "GAIL",
+      "name": "GAIL (INDIA) LTD",
+      "price": 172.7,
+      "dayChg": -0.66,
+      "ret1m": 0.94,
+      "nearHighPct": 92.42
+    },
+    {
+      "sym": "BHARTIARTL",
+      "name": "BHARTI AIRTEL LIMITED",
+      "price": 1785.4,
+      "dayChg": -0.58,
+      "ret1m": -5.15,
+      "nearHighPct": 82.11
     }
   ],
   "watchlist": [
@@ -142,11 +142,11 @@
       "sym": "DIVISLAB",
       "name": "DIVI S LABORATORIES LTD",
       "price": 9619.5,
-      "dayChg": -0.05,
+      "dayChg": 0.18,
       "score": 88,
       "nearHighPct": 98.76,
-      "volSurge": 1,
-      "ret1m": 6.18,
+      "volSurge": 1.1,
+      "ret1m": 4.12,
       "hi52": 9740,
       "lo52": 5636.5,
       "reasons": [
@@ -154,7 +154,7 @@
         "Above 50-day average",
         "Above 20-day average",
         "At 99% of 52-week high — breakout zone",
-        "Positive 1-month momentum (+6%)",
+        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     },
@@ -201,11 +201,11 @@
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1788,
-      "dayChg": -1.07,
+      "dayChg": 0.15,
       "score": 68,
       "nearHighPct": 94.55,
       "volSurge": 0.5,
-      "ret1m": 4.32,
+      "ret1m": 4.71,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
@@ -213,18 +213,18 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (95%)",
-        "Positive 1-month momentum (+4%)"
+        "Positive 1-month momentum (+5%)"
       ]
     },
     {
       "sym": "DLF",
       "name": "DLF LIMITED",
       "price": 683,
-      "dayChg": 1.19,
+      "dayChg": 1.88,
       "score": 61,
       "nearHighPct": 86.84,
-      "volSurge": 1.2,
-      "ret1m": 1.01,
+      "volSurge": 1,
+      "ret1m": 0.47,
       "hi52": 786.5,
       "lo52": 489.4,
       "reasons": [
