@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T19:35:40.521Z",
+  "generatedAt": "2026-09-27T22:51:20.440Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -217,25 +217,6 @@
       ]
     },
     {
-      "sym": "DLF",
-      "name": "DLF LIMITED",
-      "price": 683,
-      "dayChg": 1.88,
-      "score": 61,
-      "nearHighPct": 86.84,
-      "volSurge": 1,
-      "ret1m": 0.47,
-      "hi52": 786.5,
-      "lo52": 489.4,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Building toward 52-week high",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
       "sym": "PNB",
       "name": "PUNJAB NATIONAL BANK",
       "price": 116.6,
@@ -246,6 +227,25 @@
       "ret1m": 1.04,
       "hi52": 135.15,
       "lo52": 98.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Building toward 52-week high",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 683,
+      "dayChg": 1.88,
+      "score": 61,
+      "nearHighPct": 86.84,
+      "volSurge": 1,
+      "ret1m": 0.47,
+      "hi52": 786.5,
+      "lo52": 489.4,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
