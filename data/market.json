@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T16:31:41.438Z",
+  "generatedAt": "2026-09-29T00:14:34.145Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -13,6 +13,14 @@
       "dayChg": 1.67,
       "ret1m": 5.77,
       "nearHighPct": 86.3
+    },
+    {
+      "sym": "HCLTECH",
+      "name": "HCL TECHNOLOGIES LTD",
+      "price": 1252.6,
+      "dayChg": 0.72,
+      "ret1m": -4.82,
+      "nearHighPct": 70.37
     },
     {
       "sym": "HEROMOTOCO",
@@ -39,6 +47,14 @@
       "nearHighPct": 67.42
     },
     {
+      "sym": "TVSMOTOR",
+      "name": "TVS MOTOR COMPANY  LTD",
+      "price": 4095,
+      "dayChg": 0.1,
+      "ret1m": -4.86,
+      "nearHighPct": 91.31
+    },
+    {
       "sym": "DABUR",
       "name": "DABUR INDIA LTD",
       "price": 385.75,
@@ -53,22 +69,6 @@
       "dayChg": -0.14,
       "ret1m": -2.85,
       "nearHighPct": 92.28
-    },
-    {
-      "sym": "INDUSINDBK",
-      "name": "INDUSIND BANK LIMITED",
-      "price": 909.7,
-      "dayChg": -0.27,
-      "ret1m": -10.52,
-      "nearHighPct": 84.4
-    },
-    {
-      "sym": "APOLLOHOSP",
-      "name": "APOLLO HOSPITALS ENTER. L",
-      "price": 8860,
-      "dayChg": -0.33,
-      "ret1m": -0.43,
-      "nearHighPct": 97.68
     }
   ],
   "losers": [
@@ -139,6 +139,26 @@
   ],
   "watchlist": [
     {
+      "sym": "APOLLOHOSP",
+      "name": "APOLLO HOSPITALS ENTER. L",
+      "price": 8860,
+      "dayChg": -0.32,
+      "score": 88,
+      "nearHighPct": 97.68,
+      "volSurge": 1.5,
+      "ret1m": 0.24,
+      "hi52": 9070.5,
+      "lo52": 6696.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "At 98% of 52-week high — breakout zone",
+        "Rising volume (1.5x avg)",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
       "sym": "DIVISLAB",
       "name": "DIVI S LABORATORIES LTD",
       "price": 9550,
@@ -155,25 +175,6 @@
         "Above 20-day average",
         "At 98% of 52-week high — breakout zone",
         "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "APOLLOHOSP",
-      "name": "APOLLO HOSPITALS ENTER. L",
-      "price": 8860,
-      "dayChg": -0.33,
-      "score": 78,
-      "nearHighPct": 97.68,
-      "volSurge": 1.5,
-      "ret1m": -0.43,
-      "hi52": 9070.5,
-      "lo52": 6696.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "At 98% of 52-week high — breakout zone",
-        "Rising volume (1.5x avg)"
       ]
     },
     {
