@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:47:28.639Z",
+  "generatedAt": "2026-09-29T23:29:47.736Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -7,68 +7,68 @@
   ],
   "gainers": [
     {
+      "sym": "DRREDDY",
+      "name": "DR. REDDY S LABORATORIES",
+      "price": 1251.9,
+      "dayChg": 4.24,
+      "ret1m": 8.45,
+      "nearHighPct": 88.48
+    },
+    {
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
       "price": 2972.9,
-      "dayChg": 5.01,
-      "ret1m": 3.81,
+      "dayChg": 1.93,
+      "ret1m": 3.98,
       "nearHighPct": 91.61
     },
     {
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1822,
-      "dayChg": 4.49,
-      "ret1m": 10.59,
+      "dayChg": 1.9,
+      "ret1m": 14.37,
       "nearHighPct": 96.35
-    },
-    {
-      "sym": "DRREDDY",
-      "name": "DR. REDDY S LABORATORIES",
-      "price": 1251.9,
-      "dayChg": 2.53,
-      "ret1m": 6.91,
-      "nearHighPct": 88.48
-    },
-    {
-      "sym": "ADANIGREEN",
-      "name": "ADANI GREEN ENERGY LTD",
-      "price": 1260,
-      "dayChg": 2.02,
-      "ret1m": -0.4,
-      "nearHighPct": 77.23
-    },
-    {
-      "sym": "SUNPHARMA",
-      "name": "SUN PHARMACEUTICAL IND L",
-      "price": 1865,
-      "dayChg": 1.47,
-      "ret1m": -3.32,
-      "nearHighPct": 91.11
     },
     {
       "sym": "INFY",
       "name": "INFOSYS LIMITED",
       "price": 1015.4,
-      "dayChg": 1.22,
-      "ret1m": -12.16,
+      "dayChg": 1.52,
+      "ret1m": -10.44,
       "nearHighPct": 58.76
+    },
+    {
+      "sym": "SUNPHARMA",
+      "name": "SUN PHARMACEUTICAL IND L",
+      "price": 1865,
+      "dayChg": 0.69,
+      "ret1m": -6.04,
+      "nearHighPct": 91.11
     },
     {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
       "price": 406,
-      "dayChg": 1.11,
-      "ret1m": -4.47,
+      "dayChg": 0.5,
+      "ret1m": -3.2,
       "nearHighPct": 89.59
     },
     {
       "sym": "TATASTEEL",
       "name": "TATA STEEL LIMITED",
       "price": 188,
-      "dayChg": 0.91,
-      "ret1m": 2.14,
+      "dayChg": 0.02,
+      "ret1m": 1.98,
       "nearHighPct": 83.78
+    },
+    {
+      "sym": "COALINDIA",
+      "name": "COAL INDIA LTD",
+      "price": 425,
+      "dayChg": -0.26,
+      "ret1m": 5.79,
+      "nearHighPct": 86.51
     }
   ],
   "losers": [
@@ -76,65 +76,65 @@
       "sym": "HAVELLS",
       "name": "HAVELLS INDIA LIMITED",
       "price": 1043.3,
-      "dayChg": -3.84,
-      "ret1m": -14.68,
+      "dayChg": -4.85,
+      "ret1m": -16.14,
       "nearHighPct": 68.6
     },
     {
-      "sym": "INDUSINDBK",
-      "name": "INDUSIND BANK LIMITED",
-      "price": 878,
-      "dayChg": -3.48,
-      "ret1m": -11.55,
-      "nearHighPct": 81.46
-    },
-    {
-      "sym": "HEROMOTOCO",
-      "name": "HERO MOTOCORP LIMITED",
-      "price": 5208,
-      "dayChg": -3.38,
-      "ret1m": -6.25,
-      "nearHighPct": 81.52
-    },
-    {
-      "sym": "ICICIPRULI",
-      "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 444.55,
-      "dayChg": -3.08,
-      "ret1m": -10.27,
-      "nearHighPct": 62.9
-    },
-    {
-      "sym": "TITAN",
-      "name": "TITAN COMPANY LIMITED",
-      "price": 4675,
-      "dayChg": -3,
-      "ret1m": -7.43,
-      "nearHighPct": 90.13
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 365.75,
+      "dayChg": -4.7,
+      "ret1m": -8.82,
+      "nearHighPct": 62.12
     },
     {
       "sym": "WIPRO",
       "name": "WIPRO LTD",
       "price": 156.79,
-      "dayChg": -2.95,
-      "ret1m": -13.71,
+      "dayChg": -4.41,
+      "ret1m": -15.02,
       "nearHighPct": 57.41
     },
     {
-      "sym": "PIDILITIND",
-      "name": "PIDILITE INDUSTRIES LTD",
-      "price": 1461,
-      "dayChg": -2.79,
-      "ret1m": -11.1,
-      "nearHighPct": 85.56
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 653,
+      "dayChg": -4.39,
+      "ret1m": -5.51,
+      "nearHighPct": 83.03
     },
     {
-      "sym": "HCLTECH",
-      "name": "HCL TECHNOLOGIES LTD",
-      "price": 1222,
-      "dayChg": -2.44,
-      "ret1m": -9.58,
-      "nearHighPct": 68.65
+      "sym": "SIEMENS",
+      "name": "SIEMENS LTD",
+      "price": 3710,
+      "dayChg": -4.31,
+      "ret1m": -7.94,
+      "nearHighPct": 89.41
+    },
+    {
+      "sym": "TITAN",
+      "name": "TITAN COMPANY LIMITED",
+      "price": 4675,
+      "dayChg": -4.28,
+      "ret1m": -8.38,
+      "nearHighPct": 90.13
+    },
+    {
+      "sym": "BAJAJ-AUTO",
+      "name": "BAJAJ AUTO LIMITED",
+      "price": 10811,
+      "dayChg": -4.17,
+      "ret1m": -10.87,
+      "nearHighPct": 86.7
+    },
+    {
+      "sym": "PNB",
+      "name": "PUNJAB NATIONAL BANK",
+      "price": 111.75,
+      "dayChg": -4.16,
+      "ret1m": -2.17,
+      "nearHighPct": 82.69
     }
   ],
   "watchlist": [
@@ -142,11 +142,11 @@
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1822,
-      "dayChg": 4.49,
+      "dayChg": 1.9,
       "score": 85,
       "nearHighPct": 96.35,
-      "volSurge": 1.1,
-      "ret1m": 10.59,
+      "volSurge": 0.6,
+      "ret1m": 14.37,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
@@ -154,7 +154,7 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (96%)",
-        "Strong 1-month momentum (+11%)",
+        "Strong 1-month momentum (+14%)",
         "Tight consolidation — coiled for a move"
       ]
     },
@@ -162,11 +162,11 @@
       "sym": "DRREDDY",
       "name": "DR. REDDY S LABORATORIES",
       "price": 1251.9,
-      "dayChg": 2.53,
+      "dayChg": 4.24,
       "score": 77,
       "nearHighPct": 88.48,
-      "volSurge": 2,
-      "ret1m": 6.91,
+      "volSurge": 1.4,
+      "ret1m": 8.45,
       "hi52": 1414.9,
       "lo52": 1101,
       "reasons": [
@@ -174,47 +174,8 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Rising volume (2.0x avg)",
-        "Positive 1-month momentum (+7%)",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9431,
-      "dayChg": -1.25,
-      "score": 70,
-      "nearHighPct": 96.83,
-      "volSurge": 1,
-      "ret1m": 2.9,
-      "hi52": 9740,
-      "lo52": 5636.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (97%)",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "ETERNAL",
-      "name": "ETERNAL LIMITED",
-      "price": 327.85,
-      "dayChg": -0.94,
-      "score": 69,
-      "nearHighPct": 88.98,
-      "volSurge": 1.4,
-      "ret1m": 0.03,
-      "hi52": 368.45,
-      "lo52": 212.6,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Building toward 52-week high",
         "Rising volume (1.4x avg)",
+        "Positive 1-month momentum (+8%)",
         "Tight consolidation — coiled for a move"
       ]
     },
@@ -222,11 +183,11 @@
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
       "price": 2972.9,
-      "dayChg": 5.01,
+      "dayChg": 1.93,
       "score": 63,
       "nearHighPct": 91.61,
-      "volSurge": 1.2,
-      "ret1m": 3.81,
+      "volSurge": 0.7,
+      "ret1m": 3.98,
       "hi52": 3245,
       "lo52": 1753,
       "reasons": [
@@ -235,6 +196,24 @@
         "Approaching 52-week high (92%)",
         "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9431,
+      "dayChg": -1.96,
+      "score": 60,
+      "nearHighPct": 96.83,
+      "volSurge": 1,
+      "ret1m": -0.38,
+      "hi52": 9740,
+      "lo52": 5636.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (97%)"
       ]
     }
   ]
