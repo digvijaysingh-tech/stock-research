@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T04:37:54.799Z",
+  "generatedAt": "2026-10-01T15:10:14.344Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -7,213 +7,192 @@
   ],
   "gainers": [
     {
-      "sym": "KOTAKBANK",
-      "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 430.6,
-      "dayChg": 3.26,
-      "ret1m": 2.24,
-      "nearHighPct": 95.01
-    },
-    {
       "sym": "INFY",
       "name": "INFOSYS LIMITED",
-      "price": 1017.7,
-      "dayChg": 2.37,
-      "ret1m": -9.96,
-      "nearHighPct": 58.89
+      "price": 1035,
+      "dayChg": 4.11,
+      "ret1m": -8.43,
+      "nearHighPct": 59.9
     },
     {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1544.2,
-      "dayChg": 2.23,
-      "ret1m": -4.86,
-      "nearHighPct": 83.29
+      "sym": "HDFCLIFE",
+      "name": "HDFC LIFE INS CO LTD",
+      "price": 534.2,
+      "dayChg": 2.49,
+      "ret1m": 0.13,
+      "nearHighPct": 67.75
     },
     {
       "sym": "HAVELLS",
       "name": "HAVELLS INDIA LIMITED",
-      "price": 1035.4,
-      "dayChg": 1.91,
-      "ret1m": -13.72,
-      "nearHighPct": 68.12
+      "price": 1040,
+      "dayChg": 2.36,
+      "ret1m": -13.33,
+      "nearHighPct": 68.42
     },
     {
-      "sym": "INDUSINDBK",
-      "name": "INDUSIND BANK LIMITED",
-      "price": 894.1,
-      "dayChg": 1.83,
-      "ret1m": -8.58,
-      "nearHighPct": 82.95
+      "sym": "SIEMENS",
+      "name": "SIEMENS LTD",
+      "price": 3804,
+      "dayChg": 2.1,
+      "ret1m": -5.61,
+      "nearHighPct": 91.68
     },
     {
-      "sym": "HCLTECH",
-      "name": "HCL TECHNOLOGIES LTD",
-      "price": 1252,
-      "dayChg": 1.79,
-      "ret1m": -5.08,
-      "nearHighPct": 70.33
+      "sym": "HDFCBANK",
+      "name": "HDFC BANK LTD",
+      "price": 721.2,
+      "dayChg": 1.76,
+      "ret1m": 2.06,
+      "nearHighPct": 70.67
+    },
+    {
+      "sym": "SBILIFE",
+      "name": "SBI LIFE INSURANCE CO LTD",
+      "price": 1721.6,
+      "dayChg": 1.49,
+      "ret1m": 0.38,
+      "nearHighPct": 80.75
     },
     {
       "sym": "TCS",
       "name": "TATA CONSULTANCY SERV LT",
-      "price": 2086.2,
-      "dayChg": 1.74,
-      "ret1m": -10.08,
-      "nearHighPct": 62.27
+      "price": 2075,
+      "dayChg": 1.19,
+      "ret1m": -10.56,
+      "nearHighPct": 61.94
     },
     {
-      "sym": "ADANIGREEN",
-      "name": "ADANI GREEN ENERGY LTD",
-      "price": 1297,
-      "dayChg": 1.49,
-      "ret1m": 1.06,
-      "nearHighPct": 79.5
+      "sym": "HCLTECH",
+      "name": "HCL TECHNOLOGIES LTD",
+      "price": 1243.1,
+      "dayChg": 1.07,
+      "ret1m": -5.75,
+      "nearHighPct": 69.83
     }
   ],
   "losers": [
     {
       "sym": "BAJAJ-AUTO",
       "name": "BAJAJ AUTO LIMITED",
-      "price": 10141,
-      "dayChg": -6.74,
-      "ret1m": -14.92,
-      "nearHighPct": 81.32
+      "price": 10045,
+      "dayChg": -7.62,
+      "ret1m": -15.73,
+      "nearHighPct": 80.55
+    },
+    {
+      "sym": "MARUTI",
+      "name": "MARUTI SUZUKI INDIA LTD.",
+      "price": 11386,
+      "dayChg": -4.86,
+      "ret1m": -11.44,
+      "nearHighPct": 65.55
+    },
+    {
+      "sym": "ADANIPOWER",
+      "name": "ADANI POWER LTD",
+      "price": 196.21,
+      "dayChg": -3.82,
+      "ret1m": -5.8,
+      "nearHighPct": 77.19
+    },
+    {
+      "sym": "TATASTEEL",
+      "name": "TATA STEEL LIMITED",
+      "price": 178,
+      "dayChg": -3.42,
+      "ret1m": -3.37,
+      "nearHighPct": 79.32
+    },
+    {
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1737.8,
+      "dayChg": -3.36,
+      "ret1m": 1.83,
+      "nearHighPct": 91.89
     },
     {
       "sym": "GRASIM",
       "name": "GRASIM INDUSTRIES LTD",
-      "price": 2961,
-      "dayChg": -4.48,
-      "ret1m": -10.13,
-      "nearHighPct": 86.8
-    },
-    {
-      "sym": "VEDL",
-      "name": "VEDANTA LIMITED",
-      "price": 253.4,
-      "dayChg": -2.16,
-      "ret1m": -6.32,
-      "nearHighPct": 31.87
+      "price": 2962,
+      "dayChg": -3.26,
+      "ret1m": -10.51,
+      "nearHighPct": 86.83
     },
     {
       "sym": "EICHERMOT",
       "name": "EICHER MOTORS LTD",
-      "price": 7002,
-      "dayChg": -2.07,
-      "ret1m": -8.95,
-      "nearHighPct": 85.08
+      "price": 6920,
+      "dayChg": -3.22,
+      "ret1m": -10.01,
+      "nearHighPct": 84.08
     },
     {
-      "sym": "ETERNAL",
-      "name": "ETERNAL LIMITED",
-      "price": 313.8,
-      "dayChg": -1.94,
-      "ret1m": -3.39,
-      "nearHighPct": 85.17
-    },
-    {
-      "sym": "IOC",
-      "name": "INDIAN OIL CORP LTD",
-      "price": 132.39,
-      "dayChg": -1.88,
-      "ret1m": -3.93,
-      "nearHighPct": 70.06
-    },
-    {
-      "sym": "TVSMOTOR",
-      "name": "TVS MOTOR COMPANY  LTD",
-      "price": 4023.1,
-      "dayChg": -1.66,
-      "ret1m": -4.21,
-      "nearHighPct": 89.71
-    },
-    {
-      "sym": "HEROMOTOCO",
-      "name": "HERO MOTOCORP LIMITED",
-      "price": 5158,
-      "dayChg": -1.58,
-      "ret1m": -2.84,
-      "nearHighPct": 80.74
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 362.25,
+      "dayChg": -3.14,
+      "ret1m": -10.56,
+      "nearHighPct": 61.53
     }
   ],
   "watchlist": [
     {
-      "sym": "ADANIPORTS",
-      "name": "ADANI PORT & SEZ LTD",
-      "price": 1782.6,
-      "dayChg": -0.87,
-      "score": 86,
-      "nearHighPct": 94.26,
-      "volSurge": 1.4,
-      "ret1m": 4.46,
-      "hi52": 1891.1,
-      "lo52": 1292,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (94%)",
-        "Rising volume (1.4x avg)",
-        "Positive 1-month momentum (+4%)",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 430.6,
-      "dayChg": 3.26,
-      "score": 85,
-      "nearHighPct": 95.01,
-      "volSurge": 2.4,
-      "ret1m": 2.24,
+      "price": 418.35,
+      "dayChg": 0.32,
+      "score": 75,
+      "nearHighPct": 92.31,
+      "volSurge": 2.9,
+      "ret1m": -0.66,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (95%)",
-        "Strong volume surge (2.4x avg)",
-        "Tight consolidation — coiled for a move"
+        "Approaching 52-week high (92%)",
+        "Strong volume surge (2.9x avg)"
       ]
     },
     {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9284,
-      "dayChg": -1.56,
-      "score": 60,
-      "nearHighPct": 95.32,
-      "volSurge": 0.8,
-      "ret1m": 0.69,
-      "hi52": 9740,
-      "lo52": 5647.5,
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1737.8,
+      "dayChg": -3.36,
+      "score": 68,
+      "nearHighPct": 91.89,
+      "volSurge": 1.6,
+      "ret1m": 1.83,
+      "hi52": 1891.1,
+      "lo52": 1292,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
-        "Approaching 52-week high (95%)",
+        "Approaching 52-week high (92%)",
+        "Rising volume (1.6x avg)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "DRREDDY",
       "name": "DR. REDDY S LABORATORIES",
-      "price": 1229.8,
-      "dayChg": -0.26,
-      "score": 57,
-      "nearHighPct": 86.92,
-      "volSurge": 1.8,
-      "ret1m": 6.48,
+      "price": 1206.2,
+      "dayChg": -2.17,
+      "score": 64,
+      "nearHighPct": 85.25,
+      "volSurge": 2.1,
+      "ret1m": 4.43,
       "hi52": 1414.9,
       "lo52": 1101,
       "reasons": [
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Rising volume (1.8x avg)",
-        "Positive 1-month momentum (+6%)",
+        "Strong volume surge (2.1x avg)",
+        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     }
