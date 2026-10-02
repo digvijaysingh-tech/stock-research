@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T04:29:53.595Z",
+  "generatedAt": "2026-10-02T14:31:00.166Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -13,14 +13,6 @@
       "dayChg": 4.11,
       "ret1m": -8.43,
       "nearHighPct": 59.9
-    },
-    {
-      "sym": "SIEMENS",
-      "name": "SIEMENS LTD",
-      "price": 3804,
-      "dayChg": 2.53,
-      "ret1m": -5.35,
-      "nearHighPct": 91.68
     },
     {
       "sym": "HDFCLIFE",
@@ -39,12 +31,28 @@
       "nearHighPct": 68.42
     },
     {
+      "sym": "SIEMENS",
+      "name": "SIEMENS LTD",
+      "price": 3804,
+      "dayChg": 2.1,
+      "ret1m": -5.61,
+      "nearHighPct": 91.68
+    },
+    {
       "sym": "HDFCBANK",
       "name": "HDFC BANK LTD",
       "price": 721.2,
       "dayChg": 1.76,
       "ret1m": 2.06,
       "nearHighPct": 70.67
+    },
+    {
+      "sym": "SBILIFE",
+      "name": "SBI LIFE INSURANCE CO LTD",
+      "price": 1721.6,
+      "dayChg": 1.49,
+      "ret1m": 0.38,
+      "nearHighPct": 80.75
     },
     {
       "sym": "TCS",
@@ -61,14 +69,6 @@
       "dayChg": 1.07,
       "ret1m": -5.75,
       "nearHighPct": 69.83
-    },
-    {
-      "sym": "ICICIPRULI",
-      "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 448.05,
-      "dayChg": 0.96,
-      "ret1m": -9.49,
-      "nearHighPct": 63.39
     }
   ],
   "losers": [
@@ -89,28 +89,12 @@
       "nearHighPct": 65.55
     },
     {
-      "sym": "GRASIM",
-      "name": "GRASIM INDUSTRIES LTD",
-      "price": 2962,
-      "dayChg": -4.45,
-      "ret1m": -10.1,
-      "nearHighPct": 86.83
-    },
-    {
       "sym": "ADANIPOWER",
       "name": "ADANI POWER LTD",
       "price": 196.21,
       "dayChg": -3.82,
       "ret1m": -5.8,
       "nearHighPct": 77.19
-    },
-    {
-      "sym": "SUNPHARMA",
-      "name": "SUN PHARMACEUTICAL IND L",
-      "price": 1801,
-      "dayChg": -3.43,
-      "ret1m": -6.77,
-      "nearHighPct": 87.99
     },
     {
       "sym": "TATASTEEL",
@@ -129,12 +113,28 @@
       "nearHighPct": 91.89
     },
     {
+      "sym": "GRASIM",
+      "name": "GRASIM INDUSTRIES LTD",
+      "price": 2962,
+      "dayChg": -3.26,
+      "ret1m": -10.51,
+      "nearHighPct": 86.83
+    },
+    {
       "sym": "EICHERMOT",
       "name": "EICHER MOTORS LTD",
       "price": 6920,
       "dayChg": -3.22,
       "ret1m": -10.01,
       "nearHighPct": 84.08
+    },
+    {
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 362.25,
+      "dayChg": -3.14,
+      "ret1m": -10.56,
+      "nearHighPct": 61.53
     }
   ],
   "watchlist": [
