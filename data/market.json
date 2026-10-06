@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T18:01:59.105Z",
+  "generatedAt": "2026-10-06T23:37:45.183Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -39,28 +39,20 @@
       "nearHighPct": 92.88
     },
     {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9550,
-      "dayChg": 3.85,
-      "ret1m": -0.26,
-      "nearHighPct": 98.05
-    },
-    {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
       "price": 431.9,
       "dayChg": 3.82,
-      "ret1m": 2.32,
+      "ret1m": 3.02,
       "nearHighPct": 95.3
     },
     {
-      "sym": "NESTLEIND",
-      "name": "NESTLE INDIA LIMITED",
-      "price": 1341.4,
-      "dayChg": 3.42,
-      "ret1m": -4.05,
-      "nearHighPct": 86.37
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9550,
+      "dayChg": 3.25,
+      "ret1m": 2.52,
+      "nearHighPct": 98.05
     },
     {
       "sym": "HINDUNILVR",
@@ -69,6 +61,14 @@
       "dayChg": 3.09,
       "ret1m": -4.28,
       "nearHighPct": 71.06
+    },
+    {
+      "sym": "ADANIGREEN",
+      "name": "ADANI GREEN ENERGY LTD",
+      "price": 1313,
+      "dayChg": 2.89,
+      "ret1m": 1.94,
+      "nearHighPct": 80.48
     }
   ],
   "losers": [
@@ -87,14 +87,6 @@
       "dayChg": -2.04,
       "ret1m": -3.5,
       "nearHighPct": 81.15
-    },
-    {
-      "sym": "AMBUJACEM",
-      "name": "AMBUJA CEMENTS LTD",
-      "price": 361.55,
-      "dayChg": -1.35,
-      "ret1m": -9.23,
-      "nearHighPct": 61.41
     },
     {
       "sym": "TVSMOTOR",
@@ -117,7 +109,7 @@
       "name": "ULTRATECH CEMENT LIMITED",
       "price": 10750,
       "dayChg": -0.92,
-      "ret1m": -3.8,
+      "ret1m": -2.35,
       "nearHighPct": 82
     },
     {
@@ -135,18 +127,45 @@
       "dayChg": -0.82,
       "ret1m": 1.21,
       "nearHighPct": 62.55
+    },
+    {
+      "sym": "BAJFINANCE",
+      "name": "BAJAJ FINANCE LIMITED",
+      "price": 963.1,
+      "dayChg": -0.71,
+      "ret1m": -8.63,
+      "nearHighPct": 81.87
     }
   ],
   "watchlist": [
+    {
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9550,
+      "dayChg": 3.25,
+      "score": 80,
+      "nearHighPct": 98.05,
+      "volSurge": 0.7,
+      "ret1m": 2.52,
+      "hi52": 9740,
+      "lo52": 5647.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "At 98% of 52-week high — breakout zone",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
     {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
       "price": 431.9,
       "dayChg": 3.82,
-      "score": 85,
+      "score": 78,
       "nearHighPct": 95.3,
-      "volSurge": 2.5,
-      "ret1m": 2.32,
+      "volSurge": 1.2,
+      "ret1m": 3.02,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
@@ -154,7 +173,7 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (95%)",
-        "Strong volume surge (2.5x avg)",
+        "Positive 1-month momentum (+3%)",
         "Tight consolidation — coiled for a move"
       ]
     },
@@ -162,11 +181,11 @@
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1783.4,
-      "dayChg": 0.53,
+      "dayChg": 2.62,
       "score": 78,
       "nearHighPct": 94.3,
       "volSurge": 0.8,
-      "ret1m": 4.29,
+      "ret1m": 5.26,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
@@ -174,26 +193,28 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (94%)",
-        "Positive 1-month momentum (+4%)",
+        "Positive 1-month momentum (+5%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
-      "sym": "DIVISLAB",
-      "name": "DIVI S LABORATORIES LTD",
-      "price": 9550,
-      "dayChg": 3.85,
-      "score": 70,
-      "nearHighPct": 98.05,
-      "volSurge": 0.7,
-      "ret1m": -0.26,
-      "hi52": 9740,
-      "lo52": 5647.5,
+      "sym": "ADANIGREEN",
+      "name": "ADANI GREEN ENERGY LTD",
+      "price": 1313,
+      "dayChg": 2.89,
+      "score": 69,
+      "nearHighPct": 80.48,
+      "volSurge": 1.8,
+      "ret1m": 1.94,
+      "hi52": 1631.5,
+      "lo52": 765,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "At 98% of 52-week high — breakout zone"
+        "Building toward 52-week high",
+        "Rising volume (1.8x avg)",
+        "Tight consolidation — coiled for a move"
       ]
     },
     {
@@ -226,25 +247,6 @@
       "ret1m": 2.3,
       "hi52": 368.45,
       "lo52": 212.6,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Building toward 52-week high",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "ADANIGREEN",
-      "name": "ADANI GREEN ENERGY LTD",
-      "price": 1313,
-      "dayChg": 2.26,
-      "score": 61,
-      "nearHighPct": 80.48,
-      "volSurge": 0.8,
-      "ret1m": 1.63,
-      "hi52": 1631.5,
-      "lo52": 765,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
