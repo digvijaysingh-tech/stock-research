@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:16:47.990Z",
+  "generatedAt": "2026-10-08T21:04:30.859Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -10,131 +10,131 @@
       "sym": "PNB",
       "name": "PUNJAB NATIONAL BANK",
       "price": 115.29,
-      "dayChg": 0.61,
-      "ret1m": -1.34,
+      "dayChg": 3.01,
+      "ret1m": -0.28,
       "nearHighPct": 85.31
     },
     {
-      "sym": "INFY",
-      "name": "INFOSYS LIMITED",
-      "price": 997,
-      "dayChg": 0.5,
-      "ret1m": -3.81,
-      "nearHighPct": 57.7
-    },
-    {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1496.2,
-      "dayChg": 0.34,
-      "ret1m": -1.94,
-      "nearHighPct": 80.7
-    },
-    {
-      "sym": "AXISBANK",
-      "name": "AXIS BANK LIMITED",
-      "price": 1245,
-      "dayChg": 0.2,
-      "ret1m": -0.08,
-      "nearHighPct": 87.78
-    },
-    {
-      "sym": "GODREJCP",
-      "name": "GODREJ CONSUMER PRODUCTS",
-      "price": 865,
-      "dayChg": -0.06,
-      "ret1m": -0.56,
-      "nearHighPct": 67.9
-    },
-    {
-      "sym": "ICICIPRULI",
-      "name": "ICICI PRU LIFE INS CO LTD",
-      "price": 457,
-      "dayChg": -0.11,
-      "ret1m": -1.19,
-      "nearHighPct": 64.66
-    },
-    {
-      "sym": "TCS",
-      "name": "TATA CONSULTANCY SERV LT",
-      "price": 2076,
-      "dayChg": -0.21,
-      "ret1m": -5.81,
-      "nearHighPct": 61.97
+      "sym": "KOTAKBANK",
+      "name": "KOTAK MAHINDRA BANK LTD",
+      "price": 435,
+      "dayChg": 0.72,
+      "ret1m": 5.07,
+      "nearHighPct": 95.98
     },
     {
       "sym": "BANKBARODA",
       "name": "BANK OF BARODA",
       "price": 234,
-      "dayChg": -0.23,
-      "ret1m": -1.52,
+      "dayChg": 0.55,
+      "ret1m": -0.04,
       "nearHighPct": 71.89
+    },
+    {
+      "sym": "ICICIBANK",
+      "name": "ICICI BANK LTD.",
+      "price": 1349,
+      "dayChg": 0.46,
+      "ret1m": -2.89,
+      "nearHighPct": 91.15
+    },
+    {
+      "sym": "HDFCLIFE",
+      "name": "HDFC LIFE INS CO LTD",
+      "price": 544.5,
+      "dayChg": 0.1,
+      "ret1m": 5.93,
+      "nearHighPct": 69.06
+    },
+    {
+      "sym": "AXISBANK",
+      "name": "AXIS BANK LIMITED",
+      "price": 1245,
+      "dayChg": -0.24,
+      "ret1m": 0.52,
+      "nearHighPct": 87.78
+    },
+    {
+      "sym": "BHARTIARTL",
+      "name": "BHARTI AIRTEL LIMITED",
+      "price": 1804.6,
+      "dayChg": -0.33,
+      "ret1m": -0.56,
+      "nearHighPct": 82.99
+    },
+    {
+      "sym": "ICICIPRULI",
+      "name": "ICICI PRU LIFE INS CO LTD",
+      "price": 457,
+      "dayChg": -0.54,
+      "ret1m": -2.62,
+      "nearHighPct": 64.66
     }
   ],
   "losers": [
     {
-      "sym": "ADANIGREEN",
-      "name": "ADANI GREEN ENERGY LTD",
-      "price": 1235.7,
-      "dayChg": -7.88,
-      "ret1m": -4.88,
-      "nearHighPct": 75.74
-    },
-    {
       "sym": "ADANIENT",
       "name": "ADANI ENTERPRISES LIMITED",
       "price": 2596,
-      "dayChg": -5.36,
-      "ret1m": -15.64,
+      "dayChg": -8.91,
+      "ret1m": -16.38,
       "nearHighPct": 80
     },
     {
       "sym": "ADANIPOWER",
       "name": "ADANI POWER LTD",
       "price": 188,
-      "dayChg": -4.54,
-      "ret1m": -11.94,
+      "dayChg": -7.11,
+      "ret1m": -12.52,
       "nearHighPct": 73.96
-    },
-    {
-      "sym": "AMBUJACEM",
-      "name": "AMBUJA CEMENTS LTD",
-      "price": 341,
-      "dayChg": -4.46,
-      "ret1m": -13.8,
-      "nearHighPct": 57.92
     },
     {
       "sym": "JSWSTEEL",
       "name": "JSW STEEL LIMITED",
       "price": 1175.2,
-      "dayChg": -4.46,
-      "ret1m": -9.88,
+      "dayChg": -6.7,
+      "ret1m": -10.29,
       "nearHighPct": 86.99
+    },
+    {
+      "sym": "ADANIGREEN",
+      "name": "ADANI GREEN ENERGY LTD",
+      "price": 1235.7,
+      "dayChg": -5.89,
+      "ret1m": -6.03,
+      "nearHighPct": 75.74
+    },
+    {
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 341,
+      "dayChg": -5.68,
+      "ret1m": -14.11,
+      "nearHighPct": 57.92
     },
     {
       "sym": "SIEMENS",
       "name": "SIEMENS LTD",
       "price": 3639,
-      "dayChg": -4.06,
-      "ret1m": -7.98,
+      "dayChg": -5.58,
+      "ret1m": -7.85,
       "nearHighPct": 87.7
     },
     {
-      "sym": "ITC",
-      "name": "ITC LTD",
-      "price": 255,
-      "dayChg": -4.03,
-      "ret1m": -1.66,
-      "nearHighPct": 59.8
+      "sym": "HINDALCO",
+      "name": "HINDALCO  INDUSTRIES  LTD",
+      "price": 890.15,
+      "dayChg": -5.35,
+      "ret1m": -13.32,
+      "nearHighPct": 75.69
     },
     {
-      "sym": "HAVELLS",
-      "name": "HAVELLS INDIA LIMITED",
-      "price": 1023.7,
-      "dayChg": -3.47,
-      "ret1m": -8.27,
-      "nearHighPct": 67.35
+      "sym": "BEL",
+      "name": "BHARAT ELECTRONICS LTD",
+      "price": 367.3,
+      "dayChg": -5.19,
+      "ret1m": -9.53,
+      "nearHighPct": 77.58
     }
   ],
   "watchlist": [
@@ -142,11 +142,11 @@
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
       "price": 435,
-      "dayChg": -1.14,
+      "dayChg": 0.72,
       "score": 86,
       "nearHighPct": 95.98,
       "volSurge": 1.7,
-      "ret1m": 4.43,
+      "ret1m": 5.07,
       "hi52": 453.2,
       "lo52": 345.5,
       "reasons": [
@@ -155,7 +155,7 @@
         "Above 20-day average",
         "Approaching 52-week high (96%)",
         "Rising volume (1.7x avg)",
-        "Positive 1-month momentum (+4%)",
+        "Positive 1-month momentum (+5%)",
         "Tight consolidation — coiled for a move"
       ]
     },
@@ -163,18 +163,18 @@
       "sym": "TRENT",
       "name": "TRENT LTD",
       "price": 2876.3,
-      "dayChg": -0.48,
+      "dayChg": -1.02,
       "score": 60,
       "nearHighPct": 59.1,
-      "volSurge": 3,
-      "ret1m": 2.04,
+      "volSurge": 2.9,
+      "ret1m": 2,
       "hi52": 4866.5,
       "lo52": 2183.67,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Strong volume surge (3.0x avg)"
+        "Strong volume surge (2.9x avg)"
       ]
     }
   ]
