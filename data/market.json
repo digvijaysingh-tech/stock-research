@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T04:46:06.553Z",
+  "generatedAt": "2026-10-10T14:17:40.022Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -55,55 +55,23 @@
       "nearHighPct": 68.35
     },
     {
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1761,
+      "dayChg": 3.1,
+      "ret1m": -0.79,
+      "nearHighPct": 93.12
+    },
+    {
       "sym": "AMBUJACEM",
       "name": "AMBUJA CEMENTS LTD",
       "price": 351.5,
       "dayChg": 3.08,
       "ret1m": -11.46,
       "nearHighPct": 59.7
-    },
-    {
-      "sym": "INFY",
-      "name": "INFOSYS LIMITED",
-      "price": 1023.4,
-      "dayChg": 2.65,
-      "ret1m": -1.12,
-      "nearHighPct": 59.22
     }
   ],
   "losers": [
-    {
-      "sym": "SBILIFE",
-      "name": "SBI LIFE INSURANCE CO LTD",
-      "price": 1684.6,
-      "dayChg": -2.4,
-      "ret1m": -0.71,
-      "nearHighPct": 79.02
-    },
-    {
-      "sym": "HAVELLS",
-      "name": "HAVELLS INDIA LIMITED",
-      "price": 1041.5,
-      "dayChg": -1.79,
-      "ret1m": -8.64,
-      "nearHighPct": 68.52
-    },
-    {
-      "sym": "TVSMOTOR",
-      "name": "TVS MOTOR COMPANY  LTD",
-      "price": 3866.8,
-      "dayChg": -1.51,
-      "ret1m": -6.45,
-      "nearHighPct": 86.23
-    },
-    {
-      "sym": "ETERNAL",
-      "name": "ETERNAL LIMITED",
-      "price": 323.45,
-      "dayChg": -1.39,
-      "ret1m": 0.58,
-      "nearHighPct": 87.79
-    },
     {
       "sym": "SIEMENS",
       "name": "SIEMENS LTD",
@@ -113,28 +81,60 @@
       "nearHighPct": 86.64
     },
     {
-      "sym": "SUNPHARMA",
-      "name": "SUN PHARMACEUTICAL IND L",
-      "price": 1760,
-      "dayChg": -1.18,
-      "ret1m": -6.68,
-      "nearHighPct": 85.98
+      "sym": "RELIANCE",
+      "name": "RELIANCE INDUSTRIES LTD",
+      "price": 1170.3,
+      "dayChg": -0.65,
+      "ret1m": -8.5,
+      "nearHighPct": 72.61
     },
     {
-      "sym": "DLF",
-      "name": "DLF LIMITED",
-      "price": 648.6,
-      "dayChg": -1.13,
-      "ret1m": -3.93,
-      "nearHighPct": 82.47
+      "sym": "GAIL",
+      "name": "GAIL (INDIA) LTD",
+      "price": 166.64,
+      "dayChg": -0.63,
+      "ret1m": -4.72,
+      "nearHighPct": 89.17
     },
     {
-      "sym": "GRASIM",
-      "name": "GRASIM INDUSTRIES LTD",
-      "price": 2890,
-      "dayChg": -1.06,
-      "ret1m": -12.6,
-      "nearHighPct": 84.72
+      "sym": "JSWSTEEL",
+      "name": "JSW STEEL LIMITED",
+      "price": 1168,
+      "dayChg": -0.61,
+      "ret1m": -10.84,
+      "nearHighPct": 86.45
+    },
+    {
+      "sym": "GODREJCP",
+      "name": "GODREJ CONSUMER PRODUCTS",
+      "price": 860.5,
+      "dayChg": -0.52,
+      "ret1m": -0.38,
+      "nearHighPct": 67.55
+    },
+    {
+      "sym": "CIPLA",
+      "name": "CIPLA LTD",
+      "price": 1301,
+      "dayChg": -0.44,
+      "ret1m": -4.56,
+      "nearHighPct": 77.76
+    },
+    {
+      "sym": "INDUSINDBK",
+      "name": "INDUSIND BANK LIMITED",
+      "price": 861.65,
+      "dayChg": -0.27,
+      "ret1m": -14.18,
+      "nearHighPct": 79.94
+    },
+    {
+      "sym": "DIVISLAB",
+      "name": "DIVI S LABORATORIES LTD",
+      "price": 9340,
+      "dayChg": -0.22,
+      "ret1m": -1.56,
+      "nearHighPct": 95.89
     }
   ],
   "watchlist": [
@@ -182,18 +182,18 @@
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1761,
-      "dayChg": 0.62,
-      "score": 60,
+      "dayChg": 3.1,
+      "score": 58,
       "nearHighPct": 93.12,
-      "volSurge": 0.9,
-      "ret1m": 2.98,
+      "volSurge": 2,
+      "ret1m": -0.79,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Approaching 52-week high (93%)",
-        "Tight consolidation — coiled for a move"
+        "Rising volume (2.0x avg)"
       ]
     }
   ]
