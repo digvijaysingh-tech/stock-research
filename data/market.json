@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T11:28:45.819Z",
+  "generatedAt": "2026-10-13T18:58:49.622Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -165,7 +165,7 @@
       "dayChg": 0.11,
       "score": 65,
       "nearHighPct": 93.23,
-      "volSurge": 2.3,
+      "volSurge": 2.8,
       "ret1m": -0.28,
       "hi52": 1891.1,
       "lo52": 1292,
@@ -173,7 +173,7 @@
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Approaching 52-week high (93%)",
-        "Strong volume surge (2.3x avg)"
+        "Strong volume surge (2.8x avg)"
       ]
     },
     {
@@ -192,25 +192,6 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
-      "sym": "HCLTECH",
-      "name": "HCL TECHNOLOGIES LTD",
-      "price": 1326,
-      "dayChg": 8.98,
-      "score": 58,
-      "nearHighPct": 74.49,
-      "volSurge": 2.4,
-      "ret1m": 9.86,
-      "hi52": 1780.1,
-      "lo52": 1030,
-      "reasons": [
-        "Above 50-day average",
-        "Above 20-day average",
-        "Strong volume surge (2.4x avg)",
-        "Positive 1-month momentum (+10%)",
         "Tight consolidation — coiled for a move"
       ]
     }
