@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:18:36.014Z",
+  "generatedAt": "2026-10-17T15:07:22.210Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -39,36 +39,36 @@
       "nearHighPct": 67.2
     },
     {
-      "sym": "HEROMOTOCO",
-      "name": "HERO MOTOCORP LIMITED",
-      "price": 5225,
-      "dayChg": 4.09,
-      "ret1m": -0.19,
-      "nearHighPct": 81.79
-    },
-    {
-      "sym": "EICHERMOT",
-      "name": "EICHER MOTORS LTD",
-      "price": 7284.5,
-      "dayChg": 2.85,
-      "ret1m": -2.87,
-      "nearHighPct": 88.51
-    },
-    {
-      "sym": "MARUTI",
-      "name": "MARUTI SUZUKI INDIA LTD.",
-      "price": 11489,
-      "dayChg": 2.78,
-      "ret1m": -5.56,
-      "nearHighPct": 66.14
-    },
-    {
       "sym": "BHARTIARTL",
       "name": "BHARTI AIRTEL LIMITED",
       "price": 1905,
       "dayChg": 2.75,
       "ret1m": 3.76,
       "nearHighPct": 87.61
+    },
+    {
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 360,
+      "dayChg": 2.59,
+      "ret1m": -6.07,
+      "nearHighPct": 61.15
+    },
+    {
+      "sym": "TVSMOTOR",
+      "name": "TVS MOTOR COMPANY  LTD",
+      "price": 4095.1,
+      "dayChg": 1.87,
+      "ret1m": -0.16,
+      "nearHighPct": 91.32
+    },
+    {
+      "sym": "BAJFINANCE",
+      "name": "BAJAJ FINANCE LIMITED",
+      "price": 982.1,
+      "dayChg": 1.75,
+      "ret1m": -3.24,
+      "nearHighPct": 83.48
     }
   ],
   "losers": [
@@ -76,16 +76,16 @@
       "sym": "BRITANNIA",
       "name": "BRITANNIA INDUSTRIES LTD",
       "price": 4764,
-      "dayChg": -3.33,
-      "ret1m": -4.71,
+      "dayChg": -1.77,
+      "ret1m": -4.38,
       "nearHighPct": 75.97
     },
     {
       "sym": "GODREJCP",
       "name": "GODREJ CONSUMER PRODUCTS",
       "price": 855,
-      "dayChg": -1.87,
-      "ret1m": -0.93,
+      "dayChg": -1.66,
+      "ret1m": -2.06,
       "nearHighPct": 67.12
     },
     {
@@ -113,14 +113,6 @@
       "nearHighPct": 72.2
     },
     {
-      "sym": "ADANIENT",
-      "name": "ADANI ENTERPRISES LIMITED",
-      "price": 2692,
-      "dayChg": -1.12,
-      "ret1m": -7.81,
-      "nearHighPct": 82.96
-    },
-    {
       "sym": "INDUSINDBK",
       "name": "INDUSIND BANK LIMITED",
       "price": 877,
@@ -135,6 +127,14 @@
       "dayChg": -0.93,
       "ret1m": -4.7,
       "nearHighPct": 79.6
+    },
+    {
+      "sym": "ICICIPRULI",
+      "name": "ICICI PRU LIFE INS CO LTD",
+      "price": 445,
+      "dayChg": -0.89,
+      "ret1m": -9.28,
+      "nearHighPct": 62.96
     }
   ],
   "watchlist": [
@@ -283,11 +283,11 @@
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1750.8,
-      "dayChg": 0.12,
+      "dayChg": 0.44,
       "score": 60,
       "nearHighPct": 92.58,
-      "volSurge": 0.8,
-      "ret1m": 1.57,
+      "volSurge": 0.6,
+      "ret1m": 0.72,
       "hi52": 1891.1,
       "lo52": 1292,
       "reasons": [
