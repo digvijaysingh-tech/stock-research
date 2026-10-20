@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T03:49:11.600Z",
+  "generatedAt": "2026-10-20T09:13:26.953Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -39,14 +39,6 @@
       "nearHighPct": 73.17
     },
     {
-      "sym": "TVSMOTOR",
-      "name": "TVS MOTOR COMPANY  LTD",
-      "price": 4074,
-      "dayChg": 1.34,
-      "ret1m": -0.68,
-      "nearHighPct": 90.85
-    },
-    {
       "sym": "SBIN",
       "name": "STATE BANK OF INDIA",
       "price": 973.7,
@@ -69,6 +61,14 @@
       "dayChg": 0.89,
       "ret1m": -2.22,
       "nearHighPct": 89.3
+    },
+    {
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1766,
+      "dayChg": 0.87,
+      "ret1m": -3.18,
+      "nearHighPct": 93.38
     }
   ],
   "losers": [
@@ -129,12 +129,12 @@
       "nearHighPct": 69.77
     },
     {
-      "sym": "HINDUNILVR",
-      "name": "HINDUSTAN UNILEVER LTD.",
-      "price": 1853.2,
-      "dayChg": -2.14,
-      "ret1m": -4.08,
-      "nearHighPct": 69.48
+      "sym": "TRENT",
+      "name": "TRENT LTD",
+      "price": 2891.6,
+      "dayChg": -2.27,
+      "ret1m": 2.39,
+      "nearHighPct": 59.42
     }
   ],
   "watchlist": [
@@ -222,11 +222,11 @@
       "sym": "DLF",
       "name": "DLF LIMITED",
       "price": 672.85,
-      "dayChg": 0.35,
+      "dayChg": -0.32,
       "score": 69,
       "nearHighPct": 85.55,
       "volSurge": 0.7,
-      "ret1m": 5.13,
+      "ret1m": 4.42,
       "hi52": 786.5,
       "lo52": 489.4,
       "reasons": [
@@ -234,7 +234,7 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Positive 1-month momentum (+5%)",
+        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     },
