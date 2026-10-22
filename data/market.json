@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:12:56.583Z",
+  "generatedAt": "2026-10-22T16:46:07.942Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -7,167 +7,146 @@
   ],
   "gainers": [
     {
-      "sym": "AMBUJACEM",
-      "name": "AMBUJA CEMENTS LTD",
-      "price": 370.55,
-      "dayChg": 2.96,
-      "ret1m": -4.23,
-      "nearHighPct": 62.94
-    },
-    {
       "sym": "BAJFINANCE",
       "name": "BAJAJ FINANCE LIMITED",
-      "price": 936.5,
-      "dayChg": 1.13,
-      "ret1m": -7.17,
-      "nearHighPct": 79.61
-    },
-    {
-      "sym": "HAVELLS",
-      "name": "HAVELLS INDIA LIMITED",
-      "price": 1082.4,
-      "dayChg": 1.01,
-      "ret1m": -0.6,
-      "nearHighPct": 71.37
-    },
-    {
-      "sym": "ULTRACEMCO",
-      "name": "ULTRATECH CEMENT LIMITED",
-      "price": 10954,
-      "dayChg": 0.97,
-      "ret1m": -0.42,
-      "nearHighPct": 83.55
-    },
-    {
-      "sym": "ICICIBANK",
-      "name": "ICICI BANK LTD.",
-      "price": 1397.6,
-      "dayChg": 0.91,
-      "ret1m": 4.33,
-      "nearHighPct": 94.43
+      "price": 942.1,
+      "dayChg": 1.74,
+      "ret1m": -6.61,
+      "nearHighPct": 80.08
     },
     {
       "sym": "CIPLA",
       "name": "CIPLA LTD",
-      "price": 1325.7,
-      "dayChg": 0.89,
-      "ret1m": -4.22,
-      "nearHighPct": 79.24
+      "price": 1330.9,
+      "dayChg": 1.29,
+      "ret1m": -3.84,
+      "nearHighPct": 79.55
     },
     {
-      "sym": "BAJAJ-AUTO",
-      "name": "BAJAJ AUTO LIMITED",
-      "price": 10145,
-      "dayChg": 0.72,
-      "ret1m": -10.72,
-      "nearHighPct": 81.36
+      "sym": "IOC",
+      "name": "INDIAN OIL CORP LTD",
+      "price": 130.98,
+      "dayChg": 1.06,
+      "ret1m": -4.95,
+      "nearHighPct": 69.32
     },
     {
-      "sym": "BHARTIARTL",
-      "name": "BHARTI AIRTEL LIMITED",
-      "price": 1904.5,
-      "dayChg": 0.68,
-      "ret1m": 4.8,
-      "nearHighPct": 87.58
-    }
-  ],
-  "losers": [
-    {
-      "sym": "NESTLEIND",
-      "name": "NESTLE INDIA LIMITED",
-      "price": 1187.8,
-      "dayChg": -2.95,
-      "ret1m": -12.91,
-      "nearHighPct": 76.48
-    },
-    {
-      "sym": "HDFCLIFE",
-      "name": "HDFC LIFE INS CO LTD",
-      "price": 524.75,
-      "dayChg": -2.76,
-      "ret1m": -6.16,
-      "nearHighPct": 66.55
-    },
-    {
-      "sym": "DABUR",
-      "name": "DABUR INDIA LTD",
-      "price": 369.45,
-      "dayChg": -2.53,
-      "ret1m": -4.81,
-      "nearHighPct": 69.19
-    },
-    {
-      "sym": "ETERNAL",
-      "name": "ETERNAL LIMITED",
-      "price": 305,
-      "dayChg": -2.35,
-      "ret1m": -10.82,
-      "nearHighPct": 88.56
-    },
-    {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1793.9,
-      "dayChg": -2.22,
-      "ret1m": 15.62,
-      "nearHighPct": 96.76
-    },
-    {
-      "sym": "TRENT",
-      "name": "TRENT LTD",
-      "price": 2764.5,
-      "dayChg": -2.04,
-      "ret1m": -0.66,
-      "nearHighPct": 56.81
-    },
-    {
-      "sym": "VBL",
-      "name": "VARUN BEVERAGES LIMITED",
-      "price": 400.35,
-      "dayChg": -1.97,
-      "ret1m": -6.9,
-      "nearHighPct": 72.03
-    },
-    {
-      "sym": "HDFCBANK",
-      "name": "HDFC BANK LTD",
-      "price": 693.25,
-      "dayChg": -1.94,
-      "ret1m": -6.14,
-      "nearHighPct": 67.93
-    }
-  ],
-  "watchlist": [
-    {
-      "sym": "PNB",
-      "name": "PUNJAB NATIONAL BANK",
-      "price": 121.88,
-      "dayChg": -0.51,
-      "score": 93,
-      "nearHighPct": 90.18,
-      "volSurge": 2.3,
-      "ret1m": 4.17,
-      "hi52": 135.15,
-      "lo52": 98.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (90%)",
-        "Strong volume surge (2.3x avg)",
-        "Positive 1-month momentum (+4%)",
-        "Tight consolidation — coiled for a move"
-      ]
+      "sym": "ULTRACEMCO",
+      "name": "ULTRATECH CEMENT LIMITED",
+      "price": 10958,
+      "dayChg": 1,
+      "ret1m": -0.38,
+      "nearHighPct": 83.59
     },
     {
       "sym": "ICICIBANK",
       "name": "ICICI BANK LTD.",
-      "price": 1397.6,
-      "dayChg": 0.91,
+      "price": 1398.5,
+      "dayChg": 0.97,
+      "ret1m": 4.4,
+      "nearHighPct": 94.49
+    },
+    {
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 363,
+      "dayChg": 0.86,
+      "ret1m": -6.18,
+      "nearHighPct": 61.66
+    },
+    {
+      "sym": "BAJAJ-AUTO",
+      "name": "BAJAJ AUTO LIMITED",
+      "price": 10155,
+      "dayChg": 0.82,
+      "ret1m": -10.63,
+      "nearHighPct": 81.44
+    },
+    {
+      "sym": "GAIL",
+      "name": "GAIL (INDIA) LTD",
+      "price": 168.49,
+      "dayChg": 0.77,
+      "ret1m": -1.95,
+      "nearHighPct": 90.16
+    }
+  ],
+  "losers": [
+    {
+      "sym": "DABUR",
+      "name": "DABUR INDIA LTD",
+      "price": 368,
+      "dayChg": -2.92,
+      "ret1m": -5.18,
+      "nearHighPct": 68.91
+    },
+    {
+      "sym": "NESTLEIND",
+      "name": "NESTLE INDIA LIMITED",
+      "price": 1189.9,
+      "dayChg": -2.78,
+      "ret1m": -12.76,
+      "nearHighPct": 76.62
+    },
+    {
+      "sym": "ETERNAL",
+      "name": "ETERNAL LIMITED",
+      "price": 304.45,
+      "dayChg": -2.53,
+      "ret1m": -10.98,
+      "nearHighPct": 88.4
+    },
+    {
+      "sym": "HDFCLIFE",
+      "name": "HDFC LIFE INS CO LTD",
+      "price": 528.35,
+      "dayChg": -2.09,
+      "ret1m": -5.52,
+      "nearHighPct": 67.01
+    },
+    {
+      "sym": "RELIANCE",
+      "name": "RELIANCE INDUSTRIES LTD",
+      "price": 1184.5,
+      "dayChg": -2.03,
+      "ret1m": -4.51,
+      "nearHighPct": 73.49
+    },
+    {
+      "sym": "VBL",
+      "name": "VARUN BEVERAGES LIMITED",
+      "price": 400.8,
+      "dayChg": -1.86,
+      "ret1m": -6.79,
+      "nearHighPct": 72.11
+    },
+    {
+      "sym": "HDFCBANK",
+      "name": "HDFC BANK LTD",
+      "price": 694.05,
+      "dayChg": -1.82,
+      "ret1m": -6.03,
+      "nearHighPct": 68.01
+    },
+    {
+      "sym": "BEL",
+      "name": "BHARAT ELECTRONICS LTD",
+      "price": 364.5,
+      "dayChg": -1.8,
+      "ret1m": -8.39,
+      "nearHighPct": 76.99
+    }
+  ],
+  "watchlist": [
+    {
+      "sym": "ICICIBANK",
+      "name": "ICICI BANK LTD.",
+      "price": 1398.5,
+      "dayChg": 0.97,
       "score": 86,
-      "nearHighPct": 94.43,
+      "nearHighPct": 94.49,
       "volSurge": 1.6,
-      "ret1m": 4.33,
+      "ret1m": 4.4,
       "hi52": 1480,
       "lo52": 1187.6,
       "reasons": [
@@ -183,31 +162,51 @@
     {
       "sym": "TECHM",
       "name": "TECH MAHINDRA LIMITED",
-      "price": 1793.9,
-      "dayChg": -2.22,
-      "score": 75,
-      "nearHighPct": 96.76,
+      "price": 1829.1,
+      "dayChg": -0.31,
+      "score": 85,
+      "nearHighPct": 98.66,
       "volSurge": 1.1,
-      "ret1m": 15.62,
+      "ret1m": 17.88,
       "hi52": 1854,
       "lo52": 1304.1,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (97%)",
-        "Strong 1-month momentum (+16%)"
+        "At 99% of 52-week high — breakout zone",
+        "Strong 1-month momentum (+18%)"
+      ]
+    },
+    {
+      "sym": "PNB",
+      "name": "PUNJAB NATIONAL BANK",
+      "price": 122.5,
+      "dayChg": 0,
+      "score": 83,
+      "nearHighPct": 90.64,
+      "volSurge": 2.4,
+      "ret1m": 4.7,
+      "hi52": 135.15,
+      "lo52": 98.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (91%)",
+        "Strong volume surge (2.4x avg)",
+        "Positive 1-month momentum (+5%)"
       ]
     },
     {
       "sym": "BHARTIARTL",
       "name": "BHARTI AIRTEL LIMITED",
-      "price": 1904.5,
-      "dayChg": 0.68,
+      "price": 1895,
+      "dayChg": 0.17,
       "score": 69,
-      "nearHighPct": 87.58,
-      "volSurge": 1.2,
-      "ret1m": 4.8,
+      "nearHighPct": 87.15,
+      "volSurge": 1.3,
+      "ret1m": 4.28,
       "hi52": 2174.5,
       "lo52": 1726.3,
       "reasons": [
@@ -215,38 +214,38 @@
         "Above 50-day average",
         "Above 20-day average",
         "Building toward 52-week high",
-        "Positive 1-month momentum (+5%)",
+        "Positive 1-month momentum (+4%)",
         "Tight consolidation — coiled for a move"
       ]
     },
     {
       "sym": "KOTAKBANK",
       "name": "KOTAK MAHINDRA BANK LTD",
-      "price": 437.45,
-      "dayChg": -0.08,
+      "price": 437,
+      "dayChg": -0.18,
       "score": 68,
-      "nearHighPct": 96.55,
-      "volSurge": 0.5,
-      "ret1m": 6.01,
+      "nearHighPct": 96.45,
+      "volSurge": 0.6,
+      "ret1m": 5.9,
       "hi52": 453.1,
       "lo52": 345.5,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Approaching 52-week high (97%)",
+        "Approaching 52-week high (96%)",
         "Positive 1-month momentum (+6%)"
       ]
     },
     {
       "sym": "TCS",
       "name": "TATA CONSULTANCY SERV LT",
-      "price": 2504.4,
-      "dayChg": -0.97,
+      "price": 2506.9,
+      "dayChg": -0.87,
       "score": 60,
-      "nearHighPct": 74.76,
+      "nearHighPct": 74.83,
       "volSurge": 1.1,
-      "ret1m": 18.97,
+      "ret1m": 19.09,
       "hi52": 3350,
       "lo52": 1976.8,
       "reasons": [
@@ -259,19 +258,19 @@
     {
       "sym": "HCLTECH",
       "name": "HCL TECHNOLOGIES LTD",
-      "price": 1413.3,
-      "dayChg": -0.77,
+      "price": 1421.7,
+      "dayChg": -0.18,
       "score": 60,
-      "nearHighPct": 79.39,
+      "nearHighPct": 79.87,
       "volSurge": 0.8,
-      "ret1m": 11.25,
+      "ret1m": 11.91,
       "hi52": 1780.1,
       "lo52": 1030,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "Strong 1-month momentum (+11%)"
+        "Strong 1-month momentum (+12%)"
       ]
     }
   ]
