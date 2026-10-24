@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:42:01.705Z",
+  "generatedAt": "2026-10-24T15:31:26.500Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -18,24 +18,16 @@
       "sym": "SHREECEM",
       "name": "SHREE CEMENT LIMITED",
       "price": 22735,
-      "dayChg": 1.9,
-      "ret1m": 2.41,
+      "dayChg": 1.81,
+      "ret1m": 1.04,
       "nearHighPct": 77.26
-    },
-    {
-      "sym": "ULTRACEMCO",
-      "name": "ULTRATECH CEMENT LIMITED",
-      "price": 11050,
-      "dayChg": 1.85,
-      "ret1m": 0.45,
-      "nearHighPct": 84.29
     },
     {
       "sym": "APOLLOHOSP",
       "name": "APOLLO HOSPITALS ENTER. L",
       "price": 7730,
-      "dayChg": 1.71,
-      "ret1m": -12.51,
+      "dayChg": 1.65,
+      "ret1m": -14.76,
       "nearHighPct": 85.22
     },
     {
@@ -63,6 +55,14 @@
       "nearHighPct": 75.52
     },
     {
+      "sym": "ULTRACEMCO",
+      "name": "ULTRATECH CEMENT LIMITED",
+      "price": 11050,
+      "dayChg": 0.84,
+      "ret1m": -0.94,
+      "nearHighPct": 84.29
+    },
+    {
       "sym": "MARUTI",
       "name": "MARUTI SUZUKI INDIA LTD.",
       "price": 11230,
@@ -79,14 +79,6 @@
       "dayChg": -5.19,
       "ret1m": -8.9,
       "nearHighPct": 72.64
-    },
-    {
-      "sym": "ADANIENT",
-      "name": "ADANI ENTERPRISES LIMITED",
-      "price": 2477,
-      "dayChg": -4.53,
-      "ret1m": -17.35,
-      "nearHighPct": 76.33
     },
     {
       "sym": "CHOLAFIN",
@@ -121,12 +113,12 @@
       "nearHighPct": 28.49
     },
     {
-      "sym": "BRITANNIA",
-      "name": "BRITANNIA INDUSTRIES LTD",
-      "price": 4537.9,
-      "dayChg": -3.11,
-      "ret1m": -7.73,
-      "nearHighPct": 72.36
+      "sym": "ADANIENT",
+      "name": "ADANI ENTERPRISES LIMITED",
+      "price": 2477,
+      "dayChg": -2.86,
+      "ret1m": -17.25,
+      "nearHighPct": 76.33
     },
     {
       "sym": "JSWSTEEL",
@@ -135,6 +127,14 @@
       "dayChg": -2.83,
       "ret1m": -8.65,
       "nearHighPct": 87.75
+    },
+    {
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1702.7,
+      "dayChg": -2.7,
+      "ret1m": -5.79,
+      "nearHighPct": 90.04
     }
   ],
   "watchlist": [
@@ -197,25 +197,6 @@
       ]
     },
     {
-      "sym": "PNB",
-      "name": "PUNJAB NATIONAL BANK",
-      "price": 120.37,
-      "dayChg": -1.74,
-      "score": 66,
-      "nearHighPct": 89.06,
-      "volSurge": 2.4,
-      "ret1m": 2.88,
-      "hi52": 135.15,
-      "lo52": 98.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Building toward 52-week high",
-        "Strong volume surge (2.4x avg)"
-      ]
-    },
-    {
       "sym": "TCS",
       "name": "TATA CONSULTANCY SERV LT",
       "price": 2530,
@@ -249,6 +230,25 @@
         "Above 50-day average",
         "Above 20-day average",
         "Strong 1-month momentum (+13%)"
+      ]
+    },
+    {
+      "sym": "PNB",
+      "name": "PUNJAB NATIONAL BANK",
+      "price": 120.37,
+      "dayChg": -1.74,
+      "score": 59,
+      "nearHighPct": 89.06,
+      "volSurge": 1.4,
+      "ret1m": 1.75,
+      "hi52": 135.15,
+      "lo52": 98.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Building toward 52-week high",
+        "Rising volume (1.4x avg)"
       ]
     }
   ]
