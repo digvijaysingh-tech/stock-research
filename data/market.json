@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T04:29:33.683Z",
+  "generatedAt": "2026-10-31T14:21:48.834Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -18,8 +18,8 @@
       "sym": "ICICIPRULI",
       "name": "ICICI LIFE INSURANCE LTD",
       "price": 431,
-      "dayChg": 4.61,
-      "ret1m": -3.05,
+      "dayChg": 4.62,
+      "ret1m": -2.88,
       "nearHighPct": 81.98
     },
     {
@@ -31,20 +31,20 @@
       "nearHighPct": 72.61
     },
     {
-      "sym": "APOLLOHOSP",
-      "name": "APOLLO HOSPITALS ENTER. L",
-      "price": 8448,
-      "dayChg": 3.82,
-      "ret1m": -2.44,
-      "nearHighPct": 93.14
-    },
-    {
       "sym": "INFY",
       "name": "INFOSYS LIMITED",
       "price": 1185,
       "dayChg": 3.36,
       "ret1m": 19.2,
       "nearHighPct": 68.58
+    },
+    {
+      "sym": "APOLLOHOSP",
+      "name": "APOLLO HOSPITALS ENTER. L",
+      "price": 8448,
+      "dayChg": 3.02,
+      "ret1m": 3.46,
+      "nearHighPct": 93.14
     },
     {
       "sym": "PIDILITIND",
@@ -105,6 +105,14 @@
       "nearHighPct": 93.55
     },
     {
+      "sym": "AMBUJACEM",
+      "name": "AMBUJA CEMENTS LTD",
+      "price": 348.05,
+      "dayChg": -1.87,
+      "ret1m": -6.94,
+      "nearHighPct": 59.12
+    },
+    {
       "sym": "SIEMENS",
       "name": "SIEMENS LTD",
       "price": 3303,
@@ -127,14 +135,6 @@
       "dayChg": -1.49,
       "ret1m": -6.04,
       "nearHighPct": 72.74
-    },
-    {
-      "sym": "BAJAJ-AUTO",
-      "name": "BAJAJ AUTO LIMITED",
-      "price": 10350,
-      "dayChg": -1.29,
-      "ret1m": -4.26,
-      "nearHighPct": 83
     }
   ],
   "watchlist": [
@@ -239,6 +239,26 @@
       ]
     },
     {
+      "sym": "APOLLOHOSP",
+      "name": "APOLLO HOSPITALS ENTER. L",
+      "price": 8448,
+      "dayChg": 3.02,
+      "score": 78,
+      "nearHighPct": 93.14,
+      "volSurge": 0.9,
+      "ret1m": 3.46,
+      "hi52": 9070.5,
+      "lo52": 6696.5,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (93%)",
+        "Positive 1-month momentum (+3%)",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
       "sym": "TVSMOTOR",
       "name": "TVS MOTOR COMPANY  LTD",
       "price": 4195.2,
@@ -313,25 +333,6 @@
         "Above 20-day average",
         "Approaching 52-week high (96%)",
         "Positive 1-month momentum (+10%)"
-      ]
-    },
-    {
-      "sym": "PNB",
-      "name": "PUNJAB NATIONAL BANK",
-      "price": 122.85,
-      "dayChg": -0.85,
-      "score": 68,
-      "nearHighPct": 90.9,
-      "volSurge": 0.9,
-      "ret1m": 8.66,
-      "hi52": 135.15,
-      "lo52": 98.5,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (91%)",
-        "Positive 1-month momentum (+9%)"
       ]
     }
   ]
