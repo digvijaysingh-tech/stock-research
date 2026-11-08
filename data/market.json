@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:33:30.258Z",
+  "generatedAt": "2026-11-08T04:53:28.139Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -321,22 +321,22 @@
       ]
     },
     {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1831,
-      "dayChg": 0.46,
+      "sym": "ADANIPORTS",
+      "name": "ADANI PORT & SEZ LTD",
+      "price": 1936.6,
+      "dayChg": 2.76,
       "score": 85,
-      "nearHighPct": 98.44,
-      "volSurge": 0.6,
-      "ret1m": 22.38,
-      "hi52": 1860,
-      "lo52": 1304.1,
+      "nearHighPct": 99.37,
+      "volSurge": 1,
+      "ret1m": 13.38,
+      "hi52": 1948.9,
+      "lo52": 1292,
       "reasons": [
         "Above 200-day average (uptrend)",
         "Above 50-day average",
         "Above 20-day average",
-        "At 98% of 52-week high — breakout zone",
-        "Strong 1-month momentum (+22%)"
+        "At 99% of 52-week high — breakout zone",
+        "Strong 1-month momentum (+13%)"
       ]
     }
   ]
