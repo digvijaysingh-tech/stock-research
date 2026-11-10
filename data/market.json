@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:34:41.329Z",
+  "generatedAt": "2026-11-10T12:14:23.553Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -113,6 +113,14 @@
       "nearHighPct": 84.69
     },
     {
+      "sym": "ICICIPRULI",
+      "name": "ICICI LIFE INSURANCE LTD",
+      "price": 431,
+      "dayChg": -1.8,
+      "ret1m": -6.42,
+      "nearHighPct": 81.98
+    },
+    {
       "sym": "GRASIM",
       "name": "GRASIM INDUSTRIES LTD",
       "price": 3169.7,
@@ -127,14 +135,6 @@
       "dayChg": -1.68,
       "ret1m": 3.87,
       "nearHighPct": 83.04
-    },
-    {
-      "sym": "BHARTIARTL",
-      "name": "BHARTI AIRTEL LIMITED",
-      "price": 2072.1,
-      "dayChg": -1.67,
-      "ret1m": 14.79,
-      "nearHighPct": 95.29
     }
   ],
   "watchlist": [
@@ -301,25 +301,6 @@
       ]
     },
     {
-      "sym": "TECHM",
-      "name": "TECH MAHINDRA LIMITED",
-      "price": 1805,
-      "dayChg": -1.42,
-      "score": 85,
-      "nearHighPct": 97.04,
-      "volSurge": 0.6,
-      "ret1m": 19.21,
-      "hi52": 1860,
-      "lo52": 1304.1,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "At 97% of 52-week high — breakout zone",
-        "Strong 1-month momentum (+19%)"
-      ]
-    },
-    {
       "sym": "ADANIPORTS",
       "name": "ADANI PORT & SEZ LTD",
       "price": 1942.7,
@@ -336,6 +317,25 @@
         "Above 20-day average",
         "At 99% of 52-week high — breakout zone",
         "Strong 1-month momentum (+10%)"
+      ]
+    },
+    {
+      "sym": "TECHM",
+      "name": "TECH MAHINDRA LIMITED",
+      "price": 1805,
+      "dayChg": -1.42,
+      "score": 85,
+      "nearHighPct": 97.04,
+      "volSurge": 0.6,
+      "ret1m": 19.21,
+      "hi52": 1860,
+      "lo52": 1304.1,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "At 97% of 52-week high — breakout zone",
+        "Strong 1-month momentum (+19%)"
       ]
     }
   ]
