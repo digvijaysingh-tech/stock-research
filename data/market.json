@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:00:37.072Z",
+  "generatedAt": "2026-11-17T02:47:59.035Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -39,14 +39,6 @@
       "nearHighPct": 83.52
     },
     {
-      "sym": "GODREJCP",
-      "name": "GODREJ CONSUMER PRODUCTS",
-      "price": 892.7,
-      "dayChg": 2.52,
-      "ret1m": 2.68,
-      "nearHighPct": 70.08
-    },
-    {
       "sym": "BHARTIARTL",
       "name": "BHARTI AIRTEL LIMITED",
       "price": 2153.5,
@@ -69,6 +61,14 @@
       "dayChg": 2.07,
       "ret1m": 9.8,
       "nearHighPct": 76.66
+    },
+    {
+      "sym": "ETERNAL",
+      "name": "ETERNAL LIMITED",
+      "price": 371.1,
+      "dayChg": 2.05,
+      "ret1m": 14.89,
+      "nearHighPct": 99.62
     }
   ],
   "losers": [
@@ -79,6 +79,14 @@
       "dayChg": -7.7,
       "ret1m": -3.15,
       "nearHighPct": 81.98
+    },
+    {
+      "sym": "HINDALCO",
+      "name": "HINDALCO  INDUSTRIES  LTD",
+      "price": 923.3,
+      "dayChg": -4.22,
+      "ret1m": 4.62,
+      "nearHighPct": 78.51
     },
     {
       "sym": "DIVISLAB",
@@ -121,20 +129,12 @@
       "nearHighPct": 86.3
     },
     {
-      "sym": "HINDALCO",
-      "name": "HINDALCO  INDUSTRIES  LTD",
-      "price": 923.3,
-      "dayChg": -2.15,
-      "ret1m": 3.29,
-      "nearHighPct": 78.51
-    },
-    {
-      "sym": "COALINDIA",
-      "name": "COAL INDIA LTD",
-      "price": 397.5,
-      "dayChg": -1.49,
-      "ret1m": -4.9,
-      "nearHighPct": 80.92
+      "sym": "BAJAJFINSV",
+      "name": "BAJAJ FINSERV LTD.",
+      "price": 1848.2,
+      "dayChg": -2.06,
+      "ret1m": 7.35,
+      "nearHighPct": 87.24
     }
   ],
   "watchlist": [
@@ -162,11 +162,11 @@
       "sym": "EICHERMOT",
       "name": "EICHER MOTORS LTD",
       "price": 7599,
-      "dayChg": -0.67,
+      "dayChg": 0.66,
       "score": 86,
       "nearHighPct": 92.33,
-      "volSurge": 1.9,
-      "ret1m": 5.18,
+      "volSurge": 1.4,
+      "ret1m": 7.29,
       "hi52": 8230,
       "lo52": 6442,
       "reasons": [
@@ -174,8 +174,8 @@
         "Above 50-day average",
         "Above 20-day average",
         "Approaching 52-week high (92%)",
-        "Rising volume (1.9x avg)",
-        "Positive 1-month momentum (+5%)",
+        "Rising volume (1.4x avg)",
+        "Positive 1-month momentum (+7%)",
         "Tight consolidation — coiled for a move"
       ]
     },
@@ -259,11 +259,11 @@
       "sym": "DRREDDY",
       "name": "DR. REDDY S LABORATORIES",
       "price": 1377.9,
-      "dayChg": -0.15,
+      "dayChg": -0.63,
       "score": 85,
       "nearHighPct": 97.38,
-      "volSurge": 0.5,
-      "ret1m": 13.05,
+      "volSurge": 0.7,
+      "ret1m": 13.31,
       "hi52": 1414.9,
       "lo52": 1101,
       "reasons": [
@@ -271,6 +271,25 @@
         "Above 50-day average",
         "Above 20-day average",
         "At 97% of 52-week high — breakout zone",
+        "Strong 1-month momentum (+13%)"
+      ]
+    },
+    {
+      "sym": "DLF",
+      "name": "DLF LIMITED",
+      "price": 754.75,
+      "dayChg": -0.53,
+      "score": 85,
+      "nearHighPct": 97.66,
+      "volSurge": 1.1,
+      "ret1m": 12.57,
+      "hi52": 772.8,
+      "lo52": 489.4,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "At 98% of 52-week high — breakout zone",
         "Strong 1-month momentum (+13%)"
       ]
     },
@@ -291,25 +310,6 @@
         "Above 20-day average",
         "At 98% of 52-week high — breakout zone",
         "Strong 1-month momentum (+10%)"
-      ]
-    },
-    {
-      "sym": "DLF",
-      "name": "DLF LIMITED",
-      "price": 754.75,
-      "dayChg": -0.53,
-      "score": 85,
-      "nearHighPct": 97.66,
-      "volSurge": 1.1,
-      "ret1m": 12.57,
-      "hi52": 772.8,
-      "lo52": 489.4,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "At 98% of 52-week high — breakout zone",
-        "Strong 1-month momentum (+13%)"
       ]
     },
     {
