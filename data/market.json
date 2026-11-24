@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:38:55.371Z",
+  "generatedAt": "2026-11-24T19:23:44.129Z",
   "universeSize": 69,
   "scanned": 68,
   "failed": [
@@ -21,14 +21,6 @@
       "dayChg": 1.79,
       "ret1m": -0.7,
       "nearHighPct": 95.56
-    },
-    {
-      "sym": "VBL",
-      "name": "VARUN BEVERAGES LIMITED",
-      "price": 427.15,
-      "dayChg": 1.58,
-      "ret1m": 6.57,
-      "nearHighPct": 76.85
     },
     {
       "sym": "DABUR",
@@ -69,6 +61,14 @@
       "dayChg": 0.86,
       "ret1m": -1.34,
       "nearHighPct": 68.58
+    },
+    {
+      "sym": "EICHERMOT",
+      "name": "EICHER MOTORS LTD",
+      "price": 8172.5,
+      "dayChg": 0.73,
+      "ret1m": 15.66,
+      "nearHighPct": 98.76
     }
   ],
   "losers": [
@@ -84,8 +84,8 @@
       "sym": "ICICIPRULI",
       "name": "ICICI LIFE INSURANCE LTD",
       "price": 431,
-      "dayChg": -5.48,
-      "ret1m": 0,
+      "dayChg": -6.71,
+      "ret1m": 2.08,
       "nearHighPct": 81.98
     },
     {
@@ -179,36 +179,15 @@
       ]
     },
     {
-      "sym": "CIPLA",
-      "name": "CIPLA LTD",
-      "price": 1399.9,
-      "dayChg": -1.31,
-      "score": 86,
-      "nearHighPct": 90.92,
-      "volSurge": 1.3,
-      "ret1m": 5.18,
-      "hi52": 1539.7,
-      "lo52": 1165.7,
-      "reasons": [
-        "Above 200-day average (uptrend)",
-        "Above 50-day average",
-        "Above 20-day average",
-        "Approaching 52-week high (91%)",
-        "Rising volume (1.3x avg)",
-        "Positive 1-month momentum (+5%)",
-        "Tight consolidation — coiled for a move"
-      ]
-    },
-    {
       "sym": "BHARTIARTL",
       "name": "BHARTI AIRTEL LIMITED",
       "price": 2128.5,
-      "dayChg": -0.72,
+      "dayChg": -1.54,
       "score": 85,
-      "nearHighPct": 97.98,
+      "nearHighPct": 97.96,
       "volSurge": 0.6,
-      "ret1m": 12.32,
-      "hi52": 2172.3,
+      "ret1m": 12.49,
+      "hi52": 2172.9,
       "lo52": 1726.3,
       "reasons": [
         "Above 200-day average (uptrend)",
@@ -316,14 +295,34 @@
       ]
     },
     {
+      "sym": "CIPLA",
+      "name": "CIPLA LTD",
+      "price": 1399.9,
+      "dayChg": -1.07,
+      "score": 78,
+      "nearHighPct": 90.92,
+      "volSurge": 0.9,
+      "ret1m": 4.63,
+      "hi52": 1539.7,
+      "lo52": 1165.7,
+      "reasons": [
+        "Above 200-day average (uptrend)",
+        "Above 50-day average",
+        "Above 20-day average",
+        "Approaching 52-week high (91%)",
+        "Positive 1-month momentum (+5%)",
+        "Tight consolidation — coiled for a move"
+      ]
+    },
+    {
       "sym": "HEROMOTOCO",
       "name": "HERO MOTOCORP LIMITED",
       "price": 5535,
-      "dayChg": -0.38,
+      "dayChg": -0.02,
       "score": 77,
       "nearHighPct": 86.64,
       "volSurge": 1.4,
-      "ret1m": 7.94,
+      "ret1m": 9.67,
       "hi52": 6388.5,
       "lo52": 4671.5,
       "reasons": [
@@ -332,7 +331,7 @@
         "Above 20-day average",
         "Building toward 52-week high",
         "Rising volume (1.4x avg)",
-        "Positive 1-month momentum (+8%)",
+        "Positive 1-month momentum (+10%)",
         "Tight consolidation — coiled for a move"
       ]
     }
